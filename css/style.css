@@ -73,7 +73,7 @@ ol li {
 }
 /*HELPER CLASSES END*/
 
-/*GENERAL RULES*/
+/*FONT*/
 @font-face {
     font-family: 'AvenirNextLTPro-Regular';
     src: local('AvenirNextLTPro-Regular.otf'), url('AvenirNextLTPro-Regular.otf') format('opentype');
@@ -82,6 +82,17 @@ ol li {
     font-family: 'AvenirNextLTPro-Bold';
     src: local('AvenirNextLTPro-Bold.otf'), url('AvenirNextLTPro-Bold.otf') format('opentype');
 }
+@font-face {
+    font-family: 'AvenirNextLTPro-Medium';
+    src: local('AvenirNextLTPro-Medium.otf'), url('AvenirNextLTPro-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'AvenirNextLTPro-Demi';
+    src: local('AvenirNextLTPro-Demi.otf'), url('AvenirNextLTPro-Demi.otf') format('opentype');
+}
+/*END FONT*/
+
+/*GENERAL RULES*/
 body {
     font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
@@ -268,5 +279,28 @@ body {
     -ms-transition: 0.3s!important;
     -o-transition: 0.3s!important;
     transition: 0.3s!important;
+}
+#slider {
+    position: relative;
+}
+.popular-places {
+    width: 100%;
+    height: 400px;
+    bottom: 0px;
+    position: absolute;
+    background-color: #1a2628;
+    opacity: 0.9;
+}
+.popular-places h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+}
+.popular-places .p-lead {
+    color: white;
+    margin-top: 20px;
+}
+#recently-added-places {
+    height: 200px;
 }
 /*END GENERAL RULES*/
