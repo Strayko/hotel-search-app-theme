@@ -373,5 +373,64 @@ body {
     margin: 0 auto;
     position: relative;
 }
-
+.main-slider .left {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 130px;
+}
+.main-slider .right {
+    float: right;
+    margin-top: -255px;
+    margin-right: -50px;
+}
+.main-slider .circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.main-slider .circle:hover {
+    background-color: #F46767;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.left:hover > .left-arrow {
+    fill: white !important;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.right:hover > .right-arrow {
+    fill: white !important;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.left-arrow {
+    width: 20px;
+    margin-top: 14px;
+    margin-left: 13px;
+    fill: #F46767 !important;
+}
+.right-arrow {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    fill: #F46767 !important;
+}
 /*END GENERAL RULES*/
