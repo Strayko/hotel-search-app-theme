@@ -10,6 +10,17 @@ $('.slider-nav').slick({
     arrows: false
 });
 
+$('.slider-nav2').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 2500,
+    arrows: false
+});
+
 $('.left').click(function(){
     $('.slider').slick('slickPrev');
 });

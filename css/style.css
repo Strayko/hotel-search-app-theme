@@ -432,7 +432,6 @@ body {
 }
 #recently-added-places {
     margin-top: 200px;
-    height: 700px;
 }
 #recently-added-places h2 {
     color: #2B2A2A;
@@ -445,7 +444,6 @@ body {
 }
 .recently-box {
     width: 300px;
-    height: 400px;
 }
 .cube-box {
     width: 100%;
@@ -478,5 +476,33 @@ body {
     width: 4.5%;
     fill: #F46767 !important;
     margin-right: 5px;
+}
+.slider-nav2 a {
+    text-decoration: none;
+}
+.container-top-minus {
+    margin-top: -40px;
+}
+#about-us {
+    height: 550px;
+    width: auto;
+    margin: 100px 0px;
+    background-image: url('../img/about_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.about-us-left {
+    width: 60%;
+    margin-top: 50px;
+}
+.about-us-left h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+}
+.about-us-left .p-lead {
+    color: white;
+    margin: 20px 0px 30px 0px;
 }
 /*END GENERAL RULES*/
