@@ -351,6 +351,7 @@ body {
     width: 4.5%;
     fill: #F46767 !important;
     margin-right: 5px;
+    display: inline-block;
 }
 .container-box-footer {
     clear: both;
@@ -370,21 +371,10 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.main-slider .left {
-    position: absolute;
-    margin-left: -60px;
-    margin-top: 130px;
-}
-.main-slider .right {
-    float: right;
-    margin-top: -255px;
-    margin-right: -50px;
-}
-.main-slider .circle {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
+
+
+.left-circle {
+    width: 20px;
     display: inline-block;
     cursor: pointer;
     -webkit-transition: 0.3s!important;
@@ -400,35 +390,6 @@ body {
     -ms-transition: 0.3s!important;
     -o-transition: 0.3s!important;
     transition: 0.3s!important;
-}
-.left:hover > .left-arrow {
-    fill: white !important;
-    -webkit-transition: 0.3s!important;
-    -moz-transition: 0.3s!important;
-    -ms-transition: 0.3s!important;
-    -o-transition: 0.3s!important;
-    transition: 0.3s!important;
-}
-.right:hover > .right-arrow {
-    fill: white !important;
-    -webkit-transition: 0.3s!important;
-    -moz-transition: 0.3s!important;
-    -ms-transition: 0.3s!important;
-    -o-transition: 0.3s!important;
-    transition: 0.3s!important;
-}
-.left-arrow {
-    width: 20px;
-    margin-top: 14px;
-    margin-left: 13px;
-    fill: #F46767 !important;
-}
-.right-arrow {
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-left: 15px;
-    fill: #F46767 !important;
 }
 #recently-added-places {
     margin-top: 200px;
@@ -476,6 +437,7 @@ body {
     width: 4.5%;
     fill: #F46767 !important;
     margin-right: 5px;
+    display: inline-block;
 }
 .slider-nav2 a {
     text-decoration: none;
@@ -494,6 +456,7 @@ body {
 .about-us-left {
     width: 60%;
     margin-top: 50px;
+    float: left;
 }
 .about-us-left h2 {
     color: white;
@@ -504,5 +467,49 @@ body {
 .about-us-left .p-lead {
     color: white;
     margin: 20px 0px 30px 0px;
+}
+.about-us-right {
+    float: right;
+    margin-top: 135px;
+    position: relative;
+}
+.about-us-right .event {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    fill: white !important;
+    margin-right: 10px;
+}
+.about-us-right h3 {
+    color: white;
+    font-size: 20px;
+}
+.about-us-right h2 {
+    color: #6dc7c1;
+    font-size: 30px;
+    font-family: 'AvenirNextLTPro-Bold', sans-serif;
+}
+.about-number {
+    float:right;
+}
+.about-us-right-first {
+    display: table;
+}
+.about-us-right-second {
+    display: table;
+    margin: 28px 0px;
+}
+.about-us-right-three {
+    display: table;
+}
+.svg.event.team {
+    margin-top: 20px;
+}
+.svg.event.chat {
+    margin-top: 23px;
+}
+.svg.event {
+    margin-top: 16px;
 }
 /*END GENERAL RULES*/
