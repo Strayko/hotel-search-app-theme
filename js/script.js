@@ -21,6 +21,23 @@ $('.slider-nav2').slick({
     arrows: false
 });
 
+$('.slider-for-3').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav-3',
+    draggable: false
+});
+$('.slider-nav-3').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for-3',
+    focusOnSelect: true,
+    draggable: false,
+    arrows: false
+});
+
 $('.left').click(function(){
     $('.slider').slick('slickPrev');
 });
