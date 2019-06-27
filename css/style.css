@@ -57,6 +57,9 @@ table {
 .alignRight {
     float: right;
 }
+.active {
+    color: #f46767!important;
+}
 strong,
 b {
     font-weight: 700;
@@ -93,6 +96,7 @@ ol li {
 /*END FONT*/
 
 /*GENERAL RULES*/
+/*START HOMEPAGE*/
 body {
     font-family: 'AvenirNextLTPro-Regular', sans-serif;
 }
@@ -206,8 +210,9 @@ body {
 }
 .search input {
     border: none;
-    padding: 20px 20px;
+    padding: 20px 20px 20px 20px;
     font-size: 15px;
+
 }
 .search select {
     color: #979797;
@@ -785,4 +790,122 @@ body {
     margin-top: 50px;
     color: white;
 }
+/*END HOMEPAGE*/
+
+/*START PLANS&PRICING*/
+#header {
+    background-image: url('../img/header_bg.png');
+    height: 200px;
+    color: white;
+}
+#header h2 {
+    font-size: 40px;
+    margin: 20px 0 20px 0;
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+}
+#free {
+    width: 240px;
+    height: 1080px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
+.free-header {
+    width: 100%;
+    height: 80px;
+    background-color: #787676;
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+}
+.free-header h3 {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+}
+.free-header-2 {
+    height: 50px;
+    width: 100%;
+    background-color: #84e6e0;
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+}
+.free-header-2 .p-lead {
+    margin-top: 15px;
+}
+.content {
+    padding: 0 15px 0 15px;
+}
+.content .p-lead {
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    color: #8C8C8C;
+}
+.content .p-lead .fa-check {
+    color: #6dc7c1;
+}
+.content .p-lead .fa-times {
+    color: #F46767;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 0 15px 0;
+    margin: 20px 0 20px 0;
+    background-color: #F46767;
+    border-radius: 50px;
+    width: 150px;
+    display: inline-block;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.content a:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#silver {
+    width: 240px;
+    height: 1080px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
+#gold {
+    width: 240px;
+    height: 1080px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
+#platinum {
+    width: 240px;
+    height: 1080px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
+/*END PLANS&PRICING*/
 /*END GENERAL RULES*/
