@@ -1107,4 +1107,39 @@ body {
     margin-top: 10px;
 }
 /*END CONTACT*/
+.head-content h3 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 40px;
+    color: #343434;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.restaurants-content a {
+    text-decoration: none;
+}
+.restaurants-content .restaurant-box {
+    margin: 0 30px 15px 0;
+}
+.pagination {
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+}
+.pagination img {
+    width: 30px;
+}
+.pagination .p-lead {
+    display: inline-block;
+}
+.pagination .pagination-left {
+    position: absolute;
+    margin-left: -160px;
+}
+.pagination .pagination-right {
+    position: absolute;
+    margin-left: 100px;
+}
+/*START RESTAURANTS*/
+
+/*END RESTAURANTS*/
 /*END GENERAL RULES*/
