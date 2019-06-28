@@ -935,4 +935,176 @@ body {
     margin: 100px 0 100px 0;
 }
 /*END PLANS&PRICING*/
+
+/*START CONTACT*/
+#contact {
+    background-image: url('../img/contact_bg.png');
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.contact-header {
+    margin-top: 50px;
+}
+.contact-left {
+    float: left;
+    width: 60%;
+    color: white;
+}
+.contact-left h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+}
+.contact-right {
+    float: right;
+    width: 40%;
+}
+.contact-right img {
+    width: 300px;
+    float: right;
+    margin-top: 60px;
+}
+.contact-form {
+    clear: both;
+    width: 100%;
+    height: 470px;
+    margin-top: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.contact-form-left {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+.contact-form-right {
+    background-color: #6dc7c1;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    float: right;
+    color: white;
+}
+.contact-form-right h4 {
+    font-size: 23px;
+    font-weight: 700;
+}
+.contact-form-right p {
+    font-size: 20px;
+}
+.container-inside-form {
+    margin: 60px 70px 70px 70px;
+}
+.container-inside-form h3 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 30px;
+    color: #343434;
+}
+.input-style {
+    border: 1px solid #F46767;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 40px;
+    width: 206px;
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+}
+.form-input-first {
+    margin-top: 20px;
+}
+.form-input-second {
+    margin-top: 20px;
+}
+.input-style-margin {
+    margin-left: 20px;
+}
+.container-inside-form textarea {
+    width: 518px;
+    border: 1px solid #F46767;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    height: 110px;
+    margin-top: 20px;
+    padding: 15px 20px 10px 40px;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+}
+.container-inside-form .submit {
+    float: right;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #F46767;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.container-inside-form .submit:hover{
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.form-input-first .fa-user {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 16px;
+    color: #F46767;
+}
+.form-input-first .fa-home {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 11px;
+    color: #F46767;
+}
+.form-input-second .fa-envelope {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 16px;
+    color: #F46767;
+}
+.form-input-second .fa-phone-alt {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 12px;
+    color: #F46767;
+}
+.form-textarea .fa-pencil-alt {
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 17px;
+    color: #F46767;
+}
+.contact-form-text {
+    padding: 70px 30px 50px 30px;
+}
+.contact-form-text-2 {
+    padding: 0px 30px 50px 30px;
+}
+.contact-form-text-3 {
+    padding: 0px 30px 50px 30px;
+}
+.contact-form-right .p-lead-margin {
+    margin: 10px 0;
+}
+.contact-form-right .p-lead-top {
+    margin-top: 10px;
+}
+/*END CONTACT*/
 /*END GENERAL RULES*/
