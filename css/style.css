@@ -1130,14 +1130,36 @@ body {
 }
 .pagination .p-lead {
     display: inline-block;
+    margin: 0 10px 0 4px;
+    color: #7d7d7d;
+    font-weight: 700;
 }
 .pagination .pagination-left {
     position: absolute;
-    margin-left: -160px;
+    margin-left: -60px;
 }
 .pagination .pagination-right {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 15px;
+}
+.pagination .p-circle {
+    background-color: #F46767;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 22px;
+    color: white!important;
+    padding: 8px 6px 5px 6px;
+}
+.restaurants-h3 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 40px;
+    color: #343434;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.pagination-last-bottom {
+    margin-bottom: 60px;
 }
 /*START RESTAURANTS*/
 
