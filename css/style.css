@@ -1290,7 +1290,6 @@ body {
     overflow: hidden;
     display: inline-block;
 }
-
 .btn {
     border: 1px solid #F46767;
     color: #F46767;
@@ -1299,7 +1298,6 @@ body {
     border-radius: 50px;
 
 }
-
 .upload-btn-wrapper input[type=file] {
     font-size: 100px;
     position: absolute;
@@ -1309,4 +1307,183 @@ body {
     cursor: pointer;
 }
 /*END REGISTER*/
+
+/*START SIGN IN*/
+#signin {
+    background-image: url('../img/contact_bg.png');
+    height: 840px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.signin-container {
+    width: 55%;
+    position: relative;
+    height: 600px;
+    background-color: white;
+    margin: 80px auto 0 auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.content-signin {
+    margin-left: 100px;
+}
+.content-signin img {
+    width: 250px;
+    margin: 80px 0 70px 0;
+}
+.content-signin .signin-input {
+    display: block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #F46767;
+    padding: 10px 10px 10px 40px;
+    margin: 0 0 20px 0;
+    width: 300px;
+}
+.content-signin h4 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 30px;
+    color: #343434;
+    margin-bottom: 30px;
+}
+.content-signin .fa-envelope {
+    margin-top: 11px;
+    margin-left: 15px;
+    position: absolute;
+    color: #F46767;
+}
+.content-signin .fa-lock {
+    margin-top: 9px;
+    margin-left: 15px;
+    position: absolute;
+    color: #F46767;
+}
+.content-signin .p-lead {
+    display: inline-block;
+}
+
+
+/* Customize the label (the container) */
+.checkbox-container {
+//display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #888888;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 1px #F46767 solid;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+    background-color: white;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #F46767;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.signin-forgot-pass {
+    margin-left: 60px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #888888;
+}
+.login-content-btn {
+    display: block;
+    float: right;
+    margin-top: 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    background-color: #F46767;
+    color: white;
+    cursor: pointer;
+    margin-right: 98px;
+    margin-bottom: 20px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.login-content-btn:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.content-signin .p-lead {
+    clear: both;
+    display: block;
+    font-size: 15px;
+    color: #888888;
+}
+.content-signin .p-lead a {
+    color: #F46767;
+    text-decoration: none;
+    margin-left: 37px;
+}
+/*END SIGN IN*/
 /*END GENERAL RULES*/

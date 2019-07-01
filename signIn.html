@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Register</title>
+    <title>Sign In</title>
 </head>
 <body>
 
@@ -46,29 +46,27 @@
     </section>
     <!-- END LOGO AND MENU -->
 
-    <!-- START REGISTER -->
-    <section id="register">
+    <!-- START SIGN IN -->
+    <section id="signin">
         <div class="container">
-            <div class="register-content">
-                <div class="register-container">
+            <div class="signin-container">
+                <div class="content-signin">
                     <img src="img/logo.svg" alt="">
-                    <h4>Create an account and stay with us</h4>
-                    <i class="fas fa-user"></i><input class="register-input" type="text" placeholder="Name">
-                    <i class="fas fa-envelope"></i><input class="register-input" type="email" placeholder="Email">
-                    <i class="fas fa-lock"></i><input class="register-input" type="password" placeholder="Password">
-                    <i class="fas fa-box"></i><select name="" id="register-package">
-                        <option value="first">Choose Packages</option>
-                    </select>
-                    <div class="upload-btn-wrapper">
-                        <button class="btn">Upload picture</button>
-                        <input type="file" name="myfile" />
-                    </div>
-                    <input class="register-submit" type="submit" value="Register">
+                    <h4>Sign In</h4>
+                    <i class="fas fa-envelope"></i><input class="signin-input" type="email" placeholder="Email">
+                    <i class="fas fa-lock"></i><input class="signin-input" type="password" placeholder="Password">
+                    <label class="checkbox-container"> Remember me
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <a class="signin-forgot-pass" href="#">Forgot your password?</a>
+                    <input class="login-content-btn" type="submit" value="Login">
+                    <p class="p-lead">You don't have account yet?<a href="register.html">CREATE IT NOW</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END REGISTER -->
+    <!-- END SIGN IN -->
 
     <!-- START FOOTER -->
     <section id="footer">
