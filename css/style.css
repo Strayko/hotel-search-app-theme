@@ -115,6 +115,13 @@ body {
 .nav li {
     display: inline-block;
 }
+.menu {
+    background:white;
+    width:100%;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+}
 .sign-in {
     color: white!important;
     padding: 8px 45px!important;
@@ -1367,9 +1374,6 @@ body {
 .content-signin .p-lead {
     display: inline-block;
 }
-
-
-/* Customize the label (the container) */
 .checkbox-container {
 //display: block;
     position: relative;
@@ -1383,8 +1387,6 @@ body {
     user-select: none;
     color: #888888;
 }
-
-/* Hide the browser's default checkbox */
 .checkbox-container input {
     position: absolute;
     opacity: 0;
@@ -1392,8 +1394,6 @@ body {
     height: 0;
     width: 0;
 }
-
-/* Create a custom checkbox */
 .checkmark {
     position: absolute;
     top: 0;
@@ -1406,33 +1406,22 @@ body {
     -moz-border-radius: 20px;
     border-radius: 20px;
 }
-
-
-/* On mouse-over, add a grey background color */
 .checkbox-container:hover input ~ .checkmark {
     background-color: white;
 }
-
-/* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
     background-color: #F46767;
     transition: all 0.5s ease-in-out;
     border-radius: 50%;
 }
-
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-
-/* Show the checkmark when checked */
 .checkbox-container input:checked ~ .checkmark:after {
     display: block;
 }
-
-/* Style the checkmark/indicator */
 .checkbox-container .checkmark:after {
     left: 0px;
     top: 0px;
@@ -1489,11 +1478,317 @@ body {
     margin-left: 37px;
 }
 /*END SIGN IN*/
-.menu {
-    background:white;
-    width:100%;
-    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0 10px;
-    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 10px;
-    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+
+/*START RESTAURANT DETAILS*/
+.restaurant-left-box {
+    margin-top: 50px;
+    width: 71.7%;
+    float: left;
 }
+.img-title {
+    height: 478px;
+    margin-bottom: 30px;
+}
+.img-title img {
+    width: 100%;
+    height: 100%;
+}
+.title-body h2 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 40px;
+    color: #2B2A2A;
+    float: left;
+}
+.title-body .p-lead {
+    float: right;
+    color: #7d7d7d;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.title-body .star {
+    width: 18px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.restaurant-right-box {
+    float: right;
+    margin-top: 50px;
+    width: 25.0%;
+    margin-left: 30px;
+}
+.restaurant-right-box h3 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 30px;
+    color: #2B2A2A;
+}
+.title-body {
+    position: relative;
+}
+.title-body-2 {
+    clear: both;
+    position: relative;
+    padding-top: 10px;
+}
+.title-body-2 .p-lead {
+    float: left;
+    background-color: #F46767;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px 15px 0 15px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.title-body-2 .p-lead-litle {
+    float: left;
+    margin-right: 10px;
+    font-size: 11px;
+    border: 1px solid #F46767;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    color: #F46767;
+}
+.title-body-2 .p-comments {
+    float: right;
+    color: #7d7d7d;
+    font-weight: 700;
+    font-size: 15px;
+}
+.title-body-2 img {
+    width: 15px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.only-text {
+    clear: both;
+    color: #7d7d7d;
+    padding-top: 40px;
+}
+.contact-restaurant {
+    margin-top: 50px;
+}
+.contact-restaurant .p-lead {
+    display: inline-block;
+    border-top: 1px solid #F46767;
+    border-left: 1px solid #F46767;
+    border-right: 1px solid #F46767;
+    padding: 10px 30px 10px 30px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    color: #F46767;
+    font-weight: 700;
+}
+.p-lead-bottom {
+    display: inline-block;
+    width: 82.1%;
+    border-bottom: 1px solid red;
+    float: right;
+}
+.contact-restaurant-content {
+    padding: 30px 0 0 10px;
+}
+.contact-restaurant-content .p-title {
+    color: #7d7d7d;
+    display: inline-block;
+}
+.contact-restaurant-content .p-title-2 {
+    color: #7d7d7d;
+    display: inline-block;
+    margin-left: 120px;
+}
+.contact-email-social {
+    margin-top: 10px;
+    display: inline-block;
+}
+.contact-email-social-2 a {
+    float: right;
+    margin-left: 20px;
+    color: #F46767;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.contact-email-social-2 a:hover {
+    color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.contact-email-social .p-lead {
+    font-size: 15px;
+    color: #7d7d7d;
+}
+.contact-email-social-2 {
+    display: inline-block;
+    margin-top: 10px;
+    width: 230px;
+    height: 39px;
+}
+.contact-address {
+    margin-top: 20px;
+    color: #7d7d7d;
+}
+.contact-address .p-lead {
+    font-size: 15px;
+}
+.contact-pdf {
+    width: 500px;
+    position: absolute;
+    margin-top: -50px;
+}
+.contact-pdf a {
+    float: right;
+    text-decoration: none;
+    color: #7d7d7d;
+    border: 1px solid #F46767;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.contact-pdf a:hover {
+    background-color: #F46767;
+    color: white;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.contact-pdf a:hover > i {
+    color: white;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.contact-pdf a i {
+    color: #F46767;
+    margin-left: 5px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.gallery {
+    margin-top: 100px;
+}
+.gallery .gallery-img {
+    margin-top: 40px;
+}
+.gallery h2 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 40px;
+    color: #2B2A2A;
+}
+.gallery-img .single-img {
+    width: 230px;
+    height: 268px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.gallery-img .single-img img {
+    width: 100%;
+    height: 100%;
+}
+.restaurant-comments h2 {
+    font-family: 'AvenirNextLTPro-Medium', sans-serif;
+    font-size: 40px;
+    color: #2B2A2A;
+    margin-bottom: 20px;
+}
+.restaurant-comments .comments-icon {
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.restaurant-comments .p-lead {
+    display: inline-block;
+    color: #7d7d7d;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.comments-image {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+}
+.comments-image img {
+    width: 100%;
+    height: 100%;
+}
+.comments-section {
+    margin-top: 50px;
+}
+.comments-title-body {
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+}
+.comments-title-body .p-title {
+    color: #7d7d7d;
+    font-weight: 700;
+}
+.comments-title-body .p-lead {
+    color: #7d7d7d;
+    font-size: 15px;
+}
+.comments-title-body .p-lead-body {
+    margin-top: 10px;
+}
+.hr-spacing {
+    clear: both;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.hr-spacing hr {
+    color: #7d7d7d;
+    opacity: 0.1;
+}
+.leave-a-comment {
+    padding-top: 70px;
+    clear: both;
+}
+.leave-a-comment textarea {
+    width: 93%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #F46767;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    font-size: 15px;
+    height: 130px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+/*END RESTAURANT DETAILS*/
+
 /*END GENERAL RULES*/
