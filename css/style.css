@@ -1963,4 +1963,37 @@ body {
 }
 /*END NEW PASSWORD*/
 
+/*START RENEW PASSWORD*/
+.resetPassword-container select {
+    display: block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #F46767;
+    padding: 10px 10px 10px 36px;
+    margin-top: 30px;
+    width: 315px;
+    background-color: white;
+}
+.resetPassword-container #register-package {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image:
+            url("../img/drop-down-arrow.svg");
+    background-position:
+            calc(100% - 20px) calc(1.00em + 2px),
+            calc(100% - 15px) calc(1em + 2px),
+            100% 0;
+    background-size:
+            12px 12px,
+            12px 12px,
+            3em 3em;
+    background-repeat: no-repeat;
+}
+
+/*END RENEW PASSWORD*/
+
+
+
 /*END GENERAL RULES*/
