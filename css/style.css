@@ -1522,6 +1522,7 @@ body {
     font-family: 'AvenirNextLTPro-Medium', sans-serif;
     font-size: 30px;
     color: #2B2A2A;
+    margin-bottom: 40px;
 }
 .title-body {
     position: relative;
@@ -1788,6 +1789,84 @@ body {
     height: 130px;
     padding-left: 40px;
     padding-top: 20px;
+}
+.leave-a-comment i {
+    margin-top: 22px;
+    margin-left: 15px;
+    position: absolute;
+    color: #F46767;
+}
+.leave-a-comment .post-submit {
+    float: right;
+    margin-top: 20px;
+    background-color: #F46767;
+    border: 1px solid #F46767;
+    padding: 10px 40px 10px 40px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.leave-a-comment .post-submit:hover {
+    background-color: white;
+    color: #F46767;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.divider-clear-both {
+    clear: both;
+    margin-bottom: 150px;
+}
+.restaurant-category .p-lead {
+    font-size: 20px;
+    color: #7d7d7d;
+    margin-top: 15px;
+}
+.restaurant-recently-added {
+    margin-top: 100px;
+}
+.recently-img {
+    width: 90px;
+    height: 90px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+.recently-img img {
+    width: 100%;
+    height: 100%;
+}
+.title-address .p-lead-light {
+    font-size: 13px;
+    color: #7d7d7d;
+}
+.title-address {
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.title-address img {
+    width: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+.restaurant-recently-added hr {
+    opacity: 0.1;
+}
+.recently-divider {
+    clear: both;
 }
 /*END RESTAURANT DETAILS*/
 
