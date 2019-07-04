@@ -1903,7 +1903,7 @@ body {
     -moz-border-radius: 50px;
     border-radius: 50px;
     padding: 10px 10px 10px 40px;
-    width: 293px;
+    width: 263px;
     margin-top: 30px;
     display: block;
 }
@@ -1941,5 +1941,26 @@ body {
     color: #F46767;
 }
 /*END RESET PASSWORD*/
+
+/*START NEW PASSWORD*/
+#newPassword {
+    background-image: url('../img/contact_bg.png');
+    height: 740px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.newPassword-box {
+    width: 500px;
+    height: 450px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+/*END NEW PASSWORD*/
 
 /*END GENERAL RULES*/
