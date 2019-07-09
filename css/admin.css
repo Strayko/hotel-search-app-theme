@@ -106,8 +106,7 @@ body {
 }
 .admin2-menu {
     width: 13%;
-    height: 100%;
-    position: fixed;
+    height: 833px;
     background-color: #1a2628;
     color: white;
     display: inline-block;
@@ -192,17 +191,150 @@ body {
     background-color: #f1f1f1;
     position: relative;
     clear: both;
-    height: 100%;
-    padding: 10px;
+    height: 700px;
+    padding: 10px 10px 50px 10px;
 }
 .dashboard-table {
     width: 900px;
-    height: 300px;
     background-color: white;
     margin: 40px 0 0 40px;
     position: relative;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+.dashboard-table table tr th {
+    text-align: left;
+    color: #909090;
+    padding: 10px 10px 20px 10px;
+}
+.dashboard-table table {
+    width: 100%;
+}
+.dashboard-table table tr td {
+    color: #2B2A2A;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.dashboard-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+.dashboard-table table tr td img {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.dashboard-table table tr td a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    background-color: #F46767;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.dashboard-table table tr td a:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.dashboard-right-box {
+    display: inline-block;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.dashboard-right-box .green-box {
+    background-color: #3fd49c;
+    width: 180px;
+    height: 110px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.dashboard-right-box .blue-box {
+    background-color: #69b5f7;
+    width: 180px;
+    height: 110px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.dashboard-right-box .yellow-box {
+    background-color: #f7b407;
+    width: 180px;
+    height: 110px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.dashboard-right-box .green-box .p-lead {
+    padding-top: 20px;
+}
+.dashboard-right-box .green-box .p-lead-number {
+    margin-top: 4px;
+    font-weight: 700;
+}
+.dashboard-right-box .green-box .p-lead-all {
+    font-size: 12px;
+    display: inline-block;
+}
+.dashboard-right-box .green-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-right-box .blue-box .p-lead {
+    padding-top: 20px;
+}
+.dashboard-right-box .blue-box .p-lead-number {
+    margin-top: 4px;
+    font-weight: 700;
+}
+.dashboard-right-box .blue-box .p-lead-all {
+    font-size: 12px;
+    display: inline-block;
+}
+.dashboard-right-box .blue-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-right-box .yellow-box .p-lead {
+    padding-top: 20px;
+}
+.dashboard-right-box .yellow-box .p-lead-number {
+    margin-top: 4px;
+    font-weight: 700;
+}
+.dashboard-right-box .yellow-box .p-lead-all {
+    font-size: 12px;
+    display: inline-block;
+}
+.dashboard-right-box .yellow-box a {
+    color: white;
+    text-decoration: none;
 }
 /*END DASHBOARD*/
