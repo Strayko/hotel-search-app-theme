@@ -58,7 +58,7 @@ table {
     float: right;
 }
 .active {
-    color: #f46767!important;
+    background-color: #7dcbc2;
 }
 strong,
 b {
@@ -300,6 +300,17 @@ body {
 .dashboard-right-box .green-box .p-lead-all {
     font-size: 12px;
     display: inline-block;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.dashboard-right-box .green-box .p-lead-all:hover {
+    font-size: 15px;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
 }
 .dashboard-right-box .green-box a {
     color: white;
@@ -316,6 +327,17 @@ body {
 .dashboard-right-box .blue-box .p-lead-all {
     font-size: 12px;
     display: inline-block;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.dashboard-right-box .blue-box .p-lead-all:hover {
+    font-size: 15px;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
 }
 .dashboard-right-box .blue-box a {
     color: white;
@@ -332,9 +354,105 @@ body {
 .dashboard-right-box .yellow-box .p-lead-all {
     font-size: 12px;
     display: inline-block;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.dashboard-right-box .yellow-box .p-lead-all:hover {
+    font-size:15px;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
 }
 .dashboard-right-box .yellow-box a {
     color: white;
     text-decoration: none;
 }
 /*END DASHBOARD*/
+
+/*START RESTAURANTS*/
+#restaurants-table {
+    width: 91%;
+    background-color: white;
+    margin: 40px 0 0 40px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+#restaurants-table table tr td .blue {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    background-color: #77a1ee;
+    border-radius: unset;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table table tr td .blue:hover {
+    background-color: #5e79bb;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table table tr td .red {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: #F46767;
+    border-radius: unset;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table table tr td .red:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.search-inputs .search {
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    padding: 13px 13px 13px 40px;
+    width: 573px;
+}
+.search-inputs .header-inputs-red {
+    text-decoration: none;
+    color: white;
+    padding: 14px 48px 14px 48px;
+    background-color: #F46767;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.search-inputs .header-inputs-tirkiz {
+    text-decoration: none;
+    color: white;
+    padding: 14px 31px 14px 31px;
+    background-color: #7dcbc2;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.search-inputs .fa-search {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 55px;
+    color: #2a2a2a;
+}
+/*END RESTAURANTS*/
