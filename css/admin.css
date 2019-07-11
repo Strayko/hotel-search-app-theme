@@ -106,7 +106,7 @@ body {
 }
 .admin2-menu {
     width: 13%;
-    height: 833px;
+    height: 933px;
     background-color: #1a2628;
     color: white;
     display: inline-block;
@@ -190,6 +190,12 @@ body {
     display: inline-block;
     float: left;
 }
+.dashboard-header .fa-users {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
 .dashboard-header img {
     width: 40px;
     height: 40px;
@@ -215,7 +221,7 @@ body {
     background-color: #f1f1f1;
     position: relative;
     clear: both;
-    height: 700px;
+    height: 800px;
     padding: 10px 10px 50px 10px;
 }
 .dashboard-table {
@@ -595,6 +601,9 @@ body {
     display: inline-block;
     vertical-align: bottom;
     margin-right: 24px;
+}
+#image-r {
+    margin-right: 0!important;
 }
 .form-left {
     float: left;
