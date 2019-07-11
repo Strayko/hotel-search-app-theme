@@ -575,6 +575,14 @@ body {
     width: 200px;
     height: 100px;
     background-color: #f1f1f1;
+    display: inline-block;
+}
+.form-right .picture-of-restaurant {
+    width: 200px;
+    height: 100px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin-right: 44px;
 }
 .create-form .upload-image {
     margin-top: 40px;
@@ -660,3 +668,7 @@ body {
     margin-top: 100px;
 }
 /*END CREATE*/
+
+/*START EDIT RESTAURANT*/
+
+/*END EDIT RESTAURANT*/
