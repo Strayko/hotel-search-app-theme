@@ -29,8 +29,8 @@
             <a href="../../index.html"><li><img src="../../img/logo-white.svg" alt=""></li></a>
             <hr>
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
-            <a href="index.html"><li class="p-lead active"><i class="fas fa-utensils"></i> Restaurants</li></a>
-            <a href="../packages/index.html"><li class="p-lead"><i class="fas fa-box"></i> Packages</li></a>
+            <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
+            <a href="index.html"><li class="p-lead active"><i class="fas fa-box"></i> Packages</li></a>
             <a href="#"><li class="p-lead"><i class="fas fa-users"></i> Users</li></a>
             <a href="#"><li class="p-lead"><i class="fas fa-camera"></i> Media</li></a>
             <a href="#"><li class="p-lead"><i class="fas fa-comments"></i> Comments</li></a>
@@ -45,7 +45,7 @@
     <!-- START DASHBOARD CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-utensils"></i><h2>Restaurants</h2>
+            <i class="fas fa-box"></i><h2>Packages</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="#"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
@@ -53,52 +53,12 @@
 
             <div class="create-form">
                 <div class="form-left">
-                    <p class="p-lead-h4">Create a new restaurant</p>
+                    <p class="p-lead-h4">Create a new package</p>
 
-                    <label class="label-grey-small" for="title">TITLE</label>
+                    <label class="label-grey-small" for="title">PACKAGE</label>
                     <input class="create-form-input" name="title" id="title" type="text">
-
-                    <label class="label-grey-small" for="city">CITY</label>
-                    <input class="create-form-input" name="city" id="city" type="text">
-
-                    <label class="label-grey-small" for="address">ADDRESS</label>
-                    <input class="create-form-input" name="address" id="address" type="text">
-
-                    <label class="label-grey-small" for="food">FOOD CATEGORY</label>
-                    <select class="create-form-select" name="food" id="food">
-                        <option value="chicken">Chicken</option>
-                    </select>
-
-                    <label class="label-grey-small" for="description">RESTAURANT DESCRIPTION</label>
-                    <textarea class="create-form-textarea" name="description" id="description" cols="30" rows="10"></textarea>
+                    <button class="create-input-button" type="submit"><i class="fas fa-box"></i> CREATE</button>
                 </div>
-
-                <div class="form-right">
-
-                    <div class="google-maps"></div>
-
-                    <div class="upload-image">
-                        <p class="label-grey-image-r">UPLOAD IMAGE</p>
-                        <button class="input-file">
-                            <input type="file" id="file-input"/>
-                            <label for="file-input">BROWSE</label>
-                        </button>
-                        <hr class="between-fields">
-                    </div>
-
-                    <div class="upload-image">
-                        <p class="label-grey-image">UPLOAD MENU PDF</p>
-                        <button class="input-file">
-                            <input type="file" id="file-input2"/>
-                            <label for="file-input2">BROWSE</label>
-                        </button>
-                        <hr class="between-fields">
-                    </div>
-
-                    <div class="form-buttons">
-                        <button class="form-previous"><i class="fas fa-arrow-left"></i> Previous</button>
-                        <button class="form-next">Next <i class="fas fa-arrow-right"></i></button>
-                    </div>
 
                 </div>
             </div>

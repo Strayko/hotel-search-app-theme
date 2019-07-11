@@ -172,6 +172,12 @@ body {
     display: inline-block;
     float: left;
 }
+.dashboard-header .fa-box {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
 .dashboard-header img {
     width: 40px;
     height: 40px;
@@ -224,6 +230,7 @@ body {
     padding: 10px;
     vertical-align: middle;
     font-size: 14px;
+    height: 52.5px;
 }
 .dashboard-table tr:nth-child(even) {
     background-color: #f1f1f1;
@@ -378,7 +385,7 @@ body {
 }
 /*END DASHBOARD*/
 
-/*START INDEX*/
+/*START INDEX RESTAURANT*/
 #restaurants-table {
     width: 91%;
     background-color: white;
@@ -402,6 +409,7 @@ body {
     -ms-transition: 0.3s!important;
     -o-transition: 0.3s!important;
     transition: 0.3s!important;
+    margin-right: 10px;
 }
 #restaurants-table table tr td .blue:hover {
     background-color: #5e79bb;
@@ -442,7 +450,10 @@ body {
 .search-inputs .header-inputs-red {
     text-decoration: none;
     color: white;
-    padding: 14px 48px 14px 48px;
+    width: 84%;
+    text-align: center;
+    display: block;
+    padding: 16px 14px 15px 14px;
     background-color: #F46767;
     font-size: 12px;
     margin-left: 10px;
@@ -463,7 +474,10 @@ body {
 .search-inputs .header-inputs-tirkiz {
     text-decoration: none;
     color: white;
-    padding: 14px 31px 14px 31px;
+    width: 84%;
+    text-align: center;
+    display: block;
+    padding: 16px 14px 15px 14px;
     background-color: #7dcbc2;
     font-size: 12px;
     margin-left: 10px;
@@ -487,10 +501,17 @@ body {
     margin-left: 55px;
     color: #2a2a2a;
 }
+.add-button-box {
+    display: inline-block;
+    width: 229px;
+}
+.sorting-button-box {
+    display: inline-block;
+    width: 229px;
+}
+/*END INDEX RESTAURANT*/
 
-/*END INDEX*/
-
-/*START CREATE*/
+/*START CREATE RESTAURANT*/
 .create-form {
     width: 86%;
     background-color: white;
@@ -667,8 +688,32 @@ body {
 .form-buttons {
     margin-top: 100px;
 }
-/*END CREATE*/
+/*END CREATE RESTAURANT*/
 
 /*START EDIT RESTAURANT*/
-
+.dashboard-table .center-buttons {
+    text-align: end;
+}
+.create-form .form-left .create-input-button {
+    border: none;
+    padding: 10px 50px 10px 50px;
+    background-color: #F46767;
+    float: right;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.create-form .form-left .create-input-button:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
 /*END EDIT RESTAURANT*/
