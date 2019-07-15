@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Users</title>
+    <title>Comments</title>
 </head>
 <body>
 
@@ -31,9 +31,9 @@
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
             <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
             <a href="../packages/index.html"><li class="p-lead"><i class="fas fa-box"></i> Packages</li></a>
-            <a href="index.html"><li class="p-lead active"><i class="fas fa-users"></i> Users</li></a>
+            <a href="../users/index.html"><li class="p-lead"><i class="fas fa-users"></i> Users</li></a>
             <a href="#"><li class="p-lead"><i class="fas fa-camera"></i> Media</li></a>
-            <a href="#"><li class="p-lead"><i class="fas fa-comments"></i> Comments</li></a>
+            <a href="#"><li class="p-lead active"><i class="fas fa-comments"></i> Comments</li></a>
             <a href="../locations/index.html"><li class="p-lead"><i class="fas fa-map-marker-alt"></i> Locations</li></a>
             <a href="../foods/index.html"><li class="p-lead"><i class="fas fa-hamburger"></i> Foods</li></a>
             <a href="#"><li class="p-lead"><i class="fab fa-font-awesome-flag"></i> Distances</li></a>
@@ -42,90 +42,76 @@
     </div>
     <!-- END MENU -->
 
-    <!-- START PACKAGE CONTENT -->
+    <!-- START RESTAURANT CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-users"></i><h2>Users</h2>
+            <i class="fas fa-comments"></i><h2>Comments</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="#"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
         <div class="dashboard-content">
             <div class="search-inputs">
                 <i class="fas fa-search"></i>
-                <input class="search" type="text" placeholder="Search users ...">
-                <div class="add-button-box">
-                    <a class="header-inputs-red" href="create.html"><i class="fas fa-plus"></i> ADD USER</a>
-                </div>
+                <input class="search" type="text" placeholder="Search comments ...">
+
                 <div class="sorting-button-box">
-                    <a class="header-inputs-tirkiz" href="#"><i class="fas fa-users"></i> SORTING USERS</a>
+                    <a class="header-inputs-tirkiz" href="#"><i class="fas fa-comments"></i> SORTING COMMENTS</a>
                 </div>
             </div>
             <div class="dashboard-table" id="restaurants-table">
                 <table>
                     <tr>
                         <th>ID</th>
-                        <th>PHOTO</th>
-                        <th>NAME</th>
+                        <th>AUTHOR</th>
                         <th>EMAIL</th>
-                        <th>STATUS</th>
-                        <th>PACKAGE</th>
-                        <th>ACTIVE</th>
-                        <th>CREATED</th>
+                        <th>COMMENT</th>
+                        <th>RESTAURANT</th>
+                        <th>REPLIES</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td><img src="../../img/testimonial1.png" alt=""></td>
-                        <td>Erica Morillo</td>
+                        <td>Erica</td>
                         <td>erica@gmail.com</td>
-                        <td>author</td>
-                        <td>Platinium</td>
-                        <td>Active</td>
-                        <td>1 month ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>Some comment</td>
+                        <td><a class="replies" href="#">Carpe diem</a></td>
+                        <td><a class="replies" href="replies.html">Replies (1)</a></td>
+                        <td class="center-buttons"><input type="submit" class="blue-input" value="Approve"> <input type="submit" class="red-input" value="Delete"></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td><img src="../../img/testimonial1.png" alt=""></td>
-                        <td>Erica Morillo</td>
+                        <td>Erica</td>
                         <td>erica@gmail.com</td>
-                        <td>author</td>
-                        <td>Platinium</td>
-                        <td>Active</td>
-                        <td>1 month ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>Some comment</td>
+                        <td><a class="replies" href="#">Carpe diem</a></td>
+                        <td><a class="replies" href="replies.html">Replies (1)</a></td>
+                        <td class="center-buttons"><input type="submit" class="blue-input" value="Approve"> <input type="submit" class="red-input" value="Delete"></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td><img src="../../img/testimonial1.png" alt=""></td>
-                        <td>Erica Morillo</td>
+                        <td>Erica</td>
                         <td>erica@gmail.com</td>
-                        <td>author</td>
-                        <td>Platinium</td>
-                        <td>Active</td>
-                        <td>1 month ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>Some comment</td>
+                        <td><a class="replies" href="#">Carpe diem</a></td>
+                        <td><a class="replies" href="replies.html">Replies (1)</a></td>
+                        <td class="center-buttons"><input type="submit" class="blue-input" value="Approve"> <input type="submit" class="red-input" value="Delete"></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td><img src="../../img/testimonial1.png" alt=""></td>
-                        <td>Erica Morillo</td>
+                        <td>Erica</td>
                         <td>erica@gmail.com</td>
-                        <td>author</td>
-                        <td>Platinium</td>
-                        <td>Active</td>
-                        <td>1 month ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>Some comment</td>
+                        <td><a class="replies" href="#">Carpe diem</a></td>
+                        <td><a class="replies" href="replies.html">Replies (1)</a></td>
+                        <td class="center-buttons"><input type="submit" class="blue-input" value="Approve"> <input type="submit" class="red-input" value="Delete"></td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td><img src="../../img/testimonial1.png" alt=""></td>
-                        <td>Erica Morillo</td>
+                        <td>Erica</td>
                         <td>erica@gmail.com</td>
-                        <td>author</td>
-                        <td>Platinium</td>
-                        <td>Active</td>
-                        <td>1 month ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>Some comment</td>
+                        <td><a class="replies" href="#">Carpe diem</a></td>
+                        <td><a class="replies" href="replies.html">Replies (1)</a></td>
+                        <td class="center-buttons"><input type="submit" class="blue-input" value="Approve"> <input type="submit" class="red-input" value="Delete"> </td>
                     </tr>
                 </table>
             </div>
@@ -133,7 +119,7 @@
         </div>
     </div>
 </section>
-<!-- END PACKAGE CONTENT -->
+<!-- END RESTAURANT CONTENT -->
 
 
 </body>

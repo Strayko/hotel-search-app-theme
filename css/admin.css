@@ -190,6 +190,12 @@ body {
     display: inline-block;
     float: left;
 }
+.dashboard-header .fa-camera {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
 .dashboard-header .fa-users {
     margin: 16px 0 16px 35px;
     font-size: 30px;
@@ -203,6 +209,12 @@ body {
     float: left;
 }
 .dashboard-header .fa-blogger-b {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
+.dashboard-header .fa-comments {
     margin: 16px 0 16px 35px;
     font-size: 30px;
     display: inline-block;
@@ -278,9 +290,6 @@ body {
     border: none;
     padding: 5px 20px 5px 20px;
     background-color: #F46767;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
     -webkit-transition: 0.3s!important;
     -moz-transition: 0.3s!important;
     -ms-transition: 0.3s!important;
@@ -440,8 +449,33 @@ body {
     -o-transition: 0.3s!important;
     transition: 0.3s!important;
     margin-right: 10px;
+    font-size: 15px;
+}
+#restaurants-table table tr td .blue-input {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    background-color: #77a1ee;
+    border-radius: unset;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    margin-right: 10px;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    cursor: pointer;
 }
 #restaurants-table table tr td .blue:hover {
+    background-color: #5e79bb;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table table tr td .blue-input:hover {
     background-color: #5e79bb;
     -webkit-transition: 0.3s!important;
     -moz-transition: 0.3s!important;
@@ -456,6 +490,31 @@ body {
     padding: 5px 10px 5px 10px;
     background-color: #F46767;
     border-radius: unset;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table table tr td .red-input {
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: #F46767;
+    border-radius: unset;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    margin-right: 10px;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+#restaurants-table table tr td .red-input:hover {
+    background-color: #c45555;
     -webkit-transition: 0.3s!important;
     -moz-transition: 0.3s!important;
     -ms-transition: 0.3s!important;
@@ -750,3 +809,25 @@ body {
     transition: 0.3s!important;
 }
 /*END EDIT RESTAURANT*/
+.replies {
+    background-color: transparent!important;
+    color: #3530b7 !important;
+    padding: 0!important;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.replies:hover {
+    color: #2B2A2A!important;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.checkb {
+    width: 36px!important;
+}
