@@ -831,3 +831,31 @@ body {
 .checkb {
     width: 36px!important;
 }
+#restaurants-table .media-submit {
+    border: none;
+    background-color: #77a1ee;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table .media-submit:hover {
+    background-color: #5e79bb;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#restaurants-table .media-select {
+    border: none;
+    background-color: #f1f1f1;
+    color: #2b2a2a;
+    padding: 10px 14px 10px 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
