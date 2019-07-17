@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Restaurants</title>
+    <title>Media</title>
 </head>
 <body>
 
@@ -29,9 +29,9 @@
             <a href="../../index.html"><li><img src="../../img/logo-white.svg" alt=""></li></a>
             <hr>
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
-            <a href="index.html"><li class="p-lead active"><i class="fas fa-utensils"></i> Restaurants</li></a>
+            <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
             <a href="../events/index.html"><li class="p-lead"><i class="fas fa-calendar-alt"></i> Events</li></a>
-            <a href="../users/index.html"><li class="p-lead"><i class="fas fa-users"></i> Users</li></a>
+            <a href="index.html"><li class="p-lead active"><i class="fas fa-camera"></i> Gallery</li></a>
             <a href="../media/index.html"><li class="p-lead"><i class="fas fa-camera"></i> Media</li></a>
             <a href="../comments/index.html"><li class="p-lead"><i class="fas fa-comments"></i> Comments</li></a>
             <a href="../locations/index.html"><li class="p-lead"><i class="fas fa-map-marker-alt"></i> Locations</li></a>
@@ -42,96 +42,69 @@
     </div>
     <!-- END MENU -->
 
-    <!-- START RESTAURANT CONTENT -->
+    <!-- START PACKAGE CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-utensils"></i><h2>Restaurants</h2>
+            <i class="fas fa-camera"></i><h2>Media</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="../users/edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
         <div class="dashboard-content">
             <div class="search-inputs">
                 <i class="fas fa-search"></i>
-                <input class="search" type="text" placeholder="Search restaurants ...">
+                <input class="search-2" type="text" placeholder="Search media ...">
                 <div class="add-button-box">
-                    <a class="header-inputs-red" href="create.html"><i class="fas fa-plus"></i> ADD RESTAURANT</a>
+                    <label for="upload">Browse...</label>
+                    <input type="file" name="upload" id="upload" />
+                </div>
+                <div class="add-button-box">
+                    <input type="submit" class="header-inputs-tirkiz-3" value="Upload">
                 </div>
                 <div class="sorting-button-box">
-                    <a class="header-inputs-tirkiz" href="#"><i class="fas fa-utensils"></i> SORTING RESTAURANTS</a>
+                    <a class="header-inputs-tirkiz" href="#"><i class="fas fa-camera"></i> SORTING MEDIA</a>
                 </div>
             </div>
             <div class="dashboard-table" id="restaurants-table">
                 <table>
+                    <select class="media-select" name="" id="">
+                        <option>DELETE</option>
+                    </select>
+                    <input class="media-submit" type="submit" value="Submit">
                     <tr>
+                        <th class="checkb"><input type="checkbox"></th>
                         <th>ID</th>
-                        <th>PHOTO</th>
-                        <th>OWNER</th>
-                        <th>PACKAGE</th>
-                        <th>TITLE</th>
-                        <th>BODY</th>
-                        <th>VIEW</th>
-                        <th>COMMENT</th>
+                        <th>PICTURE</th>
                         <th>CREATED</th>
                     </tr>
                     <tr>
+                        <td class="checkb"><input type="checkbox"></td>
                         <td>1</td>
                         <td><img src="../../img/popular_place.png" alt=""></td>
-                        <td>Lou Williams</td>
-                        <td>Platinum</td>
-                        <td>Carpe diem</td>
-                        <td>Lorem ipsum</td>
-                        <td><a class="replies" href="#">Restaurant</a></td>
-                        <td><a class="replies" href="#">View</a></td>
-                        <td>2 days ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>1 days ago</td>
                     </tr>
                     <tr>
+                        <td class="checkb"><input type="checkbox"></td>
                         <td>2</td>
                         <td><img src="../../img/popular_place.png" alt=""></td>
-                        <td>Lou Williams</td>
-                        <td>Platinum</td>
-                        <td>Carpe diem</td>
-                        <td>Lorem ipsum</td>
-                        <td><a class="replies" href="#">Restaurant</a></td>
-                        <td><a class="replies" href="#">View</a></td>
-                        <td>2 days ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>1 days ago</td>
                     </tr>
                     <tr>
+                        <td class="checkb"><input type="checkbox"></td>
                         <td>3</td>
                         <td><img src="../../img/popular_place.png" alt=""></td>
-                        <td>Lou Williams</td>
-                        <td>Platinum</td>
-                        <td>Carpe diem</td>
-                        <td>Lorem ipsum</td>
-                        <td><a class="replies" href="#">Restaurant</a></td>
-                        <td><a class="replies" href="#">View</a></td>
-                        <td>2 days ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>1 days ago</td>
                     </tr>
                     <tr>
+                        <td class="checkb"><input type="checkbox"></td>
                         <td>4</td>
                         <td><img src="../../img/popular_place.png" alt=""></td>
-                        <td>Lou Williams</td>
-                        <td>Platinum</td>
-                        <td>Carpe diem</td>
-                        <td>Lorem ipsum</td>
-                        <td><a class="replies" href="#">Restaurant</a></td>
-                        <td><a class="replies" href="#">View</a></td>
-                        <td>2 days ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>1 days ago</td>
                     </tr>
                     <tr>
+                        <td class="checkb"><input type="checkbox"></td>
                         <td>5</td>
                         <td><img src="../../img/popular_place.png" alt=""></td>
-                        <td>Lou Williams</td>
-                        <td>Platinum</td>
-                        <td>Carpe diem</td>
-                        <td>Lorem ipsum</td>
-                        <td><a class="replies" href="#">Restaurant</a></td>
-                        <td><a class="replies" href="#">View</a></td>
-                        <td>2 days ago</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Edit</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td>1 days ago</td>
                     </tr>
                 </table>
             </div>
@@ -139,7 +112,7 @@
         </div>
     </div>
 </section>
-<!-- END RESTAURANT CONTENT -->
+<!-- END PACKAGE CONTENT -->
 
 
 </body>

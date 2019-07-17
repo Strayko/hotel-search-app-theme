@@ -536,13 +536,20 @@ body {
     padding: 13px 13px 13px 40px;
     width: 573px;
 }
+.search-inputs .search-2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    padding: 13px 13px 13px 40px;
+    width: 340px;
+}
 .search-inputs .header-inputs-red {
     text-decoration: none;
     color: white;
     width: 84%;
     text-align: center;
     display: block;
-    padding: 16px 14px 15px 14px;
+    padding: 17px 14px 14px 14px;
     background-color: #F46767;
     font-size: 12px;
     margin-left: 10px;
@@ -566,7 +573,7 @@ body {
     width: 84%;
     text-align: center;
     display: block;
-    padding: 16px 14px 15px 14px;
+    padding: 17px 14px 14px 14px;
     background-color: #7dcbc2;
     font-size: 12px;
     margin-left: 10px;
@@ -864,4 +871,59 @@ body {
     font-size: 30px;
     display: inline-block;
     float: left;
+}
+input[type=file] {
+    display: none;
+}
+
+label[for=upload] {
+    text-decoration: none;
+    color: white;
+    width: 84%;
+    text-align: center;
+    display: block;
+    padding: 18px 14px 14px 14px;
+    background-color: #F46767;
+    font-size: 12px;
+    margin-left: 10px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    cursor: pointer;
+}
+label[for=upload]:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.search-inputs .header-inputs-tirkiz-3 {
+    text-decoration: none;
+    color: white;
+    width: 96%;
+    text-align: center;
+    display: block;
+    padding: 15px 14px 14px 14px;
+    background-color: #77a1ee;
+    font-size: 12px;
+    margin-left: 10px;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    cursor: pointer;
+    border: none;
+}
+.search-inputs .header-inputs-tirkiz-3:hover {
+    background-color: #5e79bb;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
 }
