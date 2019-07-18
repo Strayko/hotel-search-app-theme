@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Gallery</title>
+    <title>Edit Action</title>
 </head>
 <body>
 
@@ -31,9 +31,9 @@
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
             <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
             <a href="../events/index.html"><li class="p-lead"><i class="fas fa-calendar-alt"></i> Events</li></a>
-            <a href="index.html"><li class="p-lead active"><i class="fas fa-camera"></i> Gallery</li></a>
+            <a href="../gallery/index.html"><li class="p-lead"><i class="fas fa-camera"></i> Gallery</li></a>
             <a href="../booking/index.html"><li class="p-lead"><i class="fas fa-paste"></i> Booking</li></a>
-            <a href="../actions/index.html"><li class="p-lead"><i class="fas fa-wallet"></i> Actions</li></a>
+            <a href="index.html"><li class="p-lead active"><i class="fas fa-wallet"></i> Actions</li></a>
         </ol>
     </div>
     <!-- END MENU -->
@@ -41,39 +41,38 @@
     <!-- START PACKAGE CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-camera"></i><h2>Gallery</h2>
+            <i class="fas fa-wallet"></i><h2>Actions</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="../users/edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
         <div class="dashboard-content">
-            <div class="search-inputs">
-                <i class="fas fa-search"></i>
-                <input class="search" type="text" placeholder="Search photo ...">
-                <div class="sorting-button-box">
-                    <a class="header-inputs-tirkiz" href="#"><i class="fas fa-camera"></i> SORTING PHOTOS</a>
+
+            <div class="create-form">
+                <div class="form-left">
+                    <p class="p-lead-h4">Edit action</p>
+
+                    <label class="label-grey-small" for="name">NAME</label>
+                    <input class="create-form-input" name="name" id="name" type="text" value="data from the database">
+
+                    <label class="label-grey-small" for="description">ACTION DESCRIPTION</label>
+                    <textarea class="create-form-textarea" name="description" id="description" cols="30" rows="10" placeholder="data from the database"></textarea>
+
+                    <label class="label-grey-small" for="benefits">BENEFITS</label>
+                    <input class="create-form-input" name="benefits" id="benefits" type="text" value="data from the database">
+
+                    <label class="label-grey-small" for="restaurant">RESTAURANT</label>
+                    <select class="create-form-select" name="restaurant" id="restaurant">
+                        <option value="chicken">data from the database</option>
+                    </select>
+
+                    <button class="create-input-button" type="submit"><i class="fas fa-wallet"></i> UPDATE</button>
                 </div>
-            </div>
-            <div class="dashboard-table" id="restaurants-table">
-                <table>
-                    <tr>
-                        <th>RESTAURANT</th>
-                        <th>COUNT</th>
-                    </tr>
-                    <tr>
-                        <td>Carpe diem</td>
-                        <td>7</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Upload/Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>Carpe diem</td>
-                        <td>11</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Upload/Delete</a></td>
-                    </tr>
 
-                </table>
-            </div>
 
+
+            </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- END PACKAGE CONTENT -->

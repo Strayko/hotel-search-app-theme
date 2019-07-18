@@ -208,6 +208,12 @@ body {
     display: inline-block;
     float: left;
 }
+.dashboard-header .fa-wallet {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
 .dashboard-header .fa-font-awesome-flag {
     margin: 16px 0 16px 35px;
     font-size: 30px;

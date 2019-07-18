@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Create Event</title>
+    <title>Edit User</title>
 </head>
 <body>
 
@@ -30,8 +30,9 @@
             <hr>
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
             <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
-            <a href="index.html"><li class="p-lead active"><i class="fas fa-calendar-alt"></i> Events</li></a>
+            <a href="../events/index.html"><li class="p-lead"><i class="fas fa-calendar-alt"></i> Events</li></a>
             <a href="../gallery/index.html"><li class="p-lead"><i class="fas fa-camera"></i> Gallery</li></a>
+            <a href="../booking/index.html"><li class="p-lead"><i class="fas fa-paste"></i> Booking</li></a>
             <a href="../actions/index.html"><li class="p-lead"><i class="fas fa-wallet"></i> Actions</li></a>
         </ol>
     </div>
@@ -40,25 +41,38 @@
     <!-- START PACKAGE CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-calendar-alt"></i><h2>Events</h2>
+            <i class="fas fa-users"></i><h2>Users</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
-            <a href="../users/edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
+            <a href="edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
         <div class="dashboard-content">
 
             <div class="create-form">
                 <div class="form-left">
-                    <p class="p-lead-h4">Create a new event</p>
+                    <p class="p-lead-h4">Edit user</p>
 
                     <label class="label-grey-small" for="name">NAME</label>
-                    <input class="create-form-input" name="name" id="name" type="text">
+                    <input class="create-form-input" name="name" id="name" type="text" value="data from the database">
 
-                    <label class="label-grey-small" for="description">EVENT DESCRIPTION</label>
-                    <textarea class="create-form-textarea" name="description" id="description" cols="30" rows="10"></textarea>
+                    <label class="label-grey-small" for="email">EMAIL</label>
+                    <input class="create-form-input" name="email" id="email" type="email" value="data from the database">
 
-                    <label class="label-grey-small" for="restaurant">RESTAURANT</label>
-                    <select class="create-form-select" name="restaurant" id="restaurant">
-                        <option value="chicken">Choose restaurant</option>
+                    <label class="label-grey-small" for="password">PASSWORD</label>
+                    <input class="create-form-input" name="password" id="password" type="password" value="data from the database">
+
+                    <label class="label-grey-small" for="role">ROLE</label>
+                    <select class="create-form-select" name="role" id="role">
+                        <option value="chicken">data from database</option>
+                    </select>
+
+                    <label class="label-grey-small" for="package">PACKAGE</label>
+                    <select class="create-form-select" name="package" id="package">
+                        <option value="chicken">data from database</option>
+                    </select>
+
+                    <label class="label-grey-small" for="status">STATUS</label>
+                    <select class="create-form-select" name="status" id="status">
+                        <option value="chicken">data from database</option>
                     </select>
 
                     <div class="upload-image">
@@ -70,10 +84,12 @@
                         <hr class="between-fields">
                     </div>
 
-                    <button class="create-input-button" type="submit"><i class="fas fa-calendar-alt"></i> CREATE</button>
+                    <button class="create-input-button" type="submit"><i class="fas fa-users"></i> UPDATE</button>
                 </div>
 
-
+                <div class="form-right">
+                    <div class="google-maps"></div>
+                </div>
 
             </div>
         </div>
