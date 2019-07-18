@@ -18,7 +18,7 @@
     <script src="https://cdnjscloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Create Event</title>
+    <title>Edit Reservation</title>
 </head>
 <body>
 
@@ -30,9 +30,9 @@
             <hr>
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
             <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
-            <a href="../packages/index.html"><li class="p-lead active"><i class="fas fa-calendar-alt"></i> Events</li></a>
+            <a href="../events/index.html"><li class="p-lead"><i class="fas fa-calendar-alt"></i> Events</li></a>
             <a href="../gallery/index.html"><li class="p-lead"><i class="fas fa-camera"></i> Gallery</li></a>
-            <a href="../booking/index.html"><li class="p-lead"><i class="fas fa-paste"></i> Booking</li></a>
+            <a href="index.html"><li class="p-lead active"><i class="fas fa-paste"></i> Booking</li></a>
             <a href="../comments/index.html"><li class="p-lead"><i class="fas fa-comments"></i> Comments</li></a>
             <a href="../locations/index.html"><li class="p-lead"><i class="fas fa-map-marker-alt"></i> Locations</li></a>
             <a href="../foods/index.html"><li class="p-lead"><i class="fas fa-hamburger"></i> Foods</li></a>
@@ -45,37 +45,44 @@
     <!-- START PACKAGE CONTENT -->
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
-            <i class="fas fa-calendar-alt"></i><h2>Events</h2>
+            <i class="fas fa-paste"></i><h2>Reservation</h2>
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
         <div class="dashboard-content">
 
             <div class="create-form">
-                <div class="form-left">
-                    <p class="p-lead-h4">Create a new event</p>
+                <div class="form-left" id="form-left">
+                    <p class="p-lead-h4">Reservation</p>
 
-                    <label class="label-grey-small" for="name">NAME</label>
-                    <input class="create-form-input" name="name" id="name" type="text">
+                    <label class="label-grey-small">RESTAURANT</label>
+                    <p class="p-lead">Carpe diem</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">NAME</label>
+                    <p class="p-lead">Erica Morillo</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">EMAIL</label>
+                    <p class="p-lead">erica@gmail.com</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">PHONE</label>
+                    <p class="p-lead">99 999999</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">DATE</label>
+                    <p class="p-lead">2019-10-10</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">TIME</label>
+                    <p class="p-lead">20:00:00</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">PARTY</label>
+                    <p class="p-lead">5</p>
+                    <hr class="hr-reservation">
+                    <label class="label-grey-small">DESCRIPTION</label>
+                    <p class="p-lead">Lorem ispum sit dolor amet</p>
 
-                    <label class="label-grey-small" for="description">EVENT DESCRIPTION</label>
-                    <textarea class="create-form-textarea" name="description" id="description" cols="30" rows="10"></textarea>
 
-                    <label class="label-grey-small" for="restaurant">RESTAURANT</label>
-                    <select class="create-form-select" name="restaurant" id="restaurant">
-                        <option value="chicken">Choose restaurant</option>
-                    </select>
+                    <p class="time-ago">1 day ago</p>
 
-                    <div class="upload-image">
-                        <p id="image-r" class="label-grey-image-r">UPLOAD IMAGE</p>
-                        <button class="input-file">
-                            <input type="file" id="file-input"/>
-                            <label for="file-input">BROWSE</label>
-                        </button>
-                        <hr class="between-fields">
-                    </div>
 
-                    <button class="create-input-button" type="submit"><i class="fas fa-calendar-alt"></i> CREATE</button>
                 </div>
 
 

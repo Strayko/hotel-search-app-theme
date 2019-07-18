@@ -202,6 +202,12 @@ body {
     display: inline-block;
     float: left;
 }
+.dashboard-header .fa-paste {
+    margin: 16px 0 16px 35px;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+}
 .dashboard-header .fa-font-awesome-flag {
     margin: 16px 0 16px 35px;
     font-size: 30px;
@@ -926,4 +932,18 @@ label[for=upload]:hover {
     -ms-transition: 0.3s!important;
     -o-transition: 0.3s!important;
     transition: 0.3s!important;
+}
+.create-form .form-left .p-lead {
+    font-size: 14px;
+}
+.hr-reservation {
+    opacity: 0.1;
+}
+#form-left {
+    width: 37%;
+}
+.time-ago {
+    font-size: 14px;
+    color: #8d8d8d;
+    margin-top: 20px;
 }
