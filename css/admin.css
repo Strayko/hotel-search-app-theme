@@ -623,7 +623,7 @@ body {
 .create-form {
     width: 86%;
     background-color: white;
-    margin: 40px 0 0 40px;
+    margin: 67px 0 0 40px;
     position: relative;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -952,4 +952,56 @@ label[for=upload]:hover {
     font-size: 14px;
     color: #8d8d8d;
     margin-top: 20px;
+}
+.back-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #77a1ee;
+    padding: 10px 50px 10px 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: absolute;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    font-size: 15px;
+}
+.back-button:hover {
+    background-color: #5e79bb;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+.delete-button {
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 10px;
+    border: none;
+    background-color: #F46767;
+    color: #fff;
+    padding: 7px 50px 7px 50px;
+    cursor: pointer;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    font-size: 15px;
+}
+.delete-button:hover {
+    background-color: #c45555;
+    -webkit-transition: 0.3s!important;
+    -moz-transition: 0.3s!important;
+    -ms-transition: 0.3s!important;
+    -o-transition: 0.3s!important;
+    transition: 0.3s!important;
+}
+#back-button {
+    padding: 10px 30px 10px 30px;
 }
