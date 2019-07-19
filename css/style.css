@@ -272,10 +272,10 @@ body {
 #submit {
     cursor: pointer;
     margin-left: 7px;
-    padding: 15px 20px 19px 20px;
+    padding: 19px 20px 19px 20px;
     color: white;
     width: 200px;
-    font-size: 20px;
+    font-size: 16px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -328,7 +328,6 @@ body {
     box-shadow: rgba(0,0,0,0.1) 0 0 10px;
 }
 .pic-box {
-    height: 230px;
     position: relative;
 }
 .imgs {
@@ -1993,7 +1992,15 @@ body {
 }
 
 /*END RENEW PASSWORD*/
-
+.fa-bars {
+    display: none!important;
+}
+#menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
 
 
 /*END GENERAL RULES*/
