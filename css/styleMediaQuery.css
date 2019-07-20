@@ -328,6 +328,27 @@
     .navbar {
         display: none;
     }
+    .nav li {
+        display: block;
+    }
+    .nav.alignRight.center-response{
+        margin-top: 40px!important;
+    }
+    .menu-collapse {
+        display: inline-block!important;
+    }
+    .mobile-font {
+        font-size: 19px;
+    }
+    .toggle-menu-link {
+        color: #2b2a2a;
+    }
+    .register {
+        padding: 7px 35px!important;
+    }
+    .sign-in {
+        padding: 7px 35px!important;
+    }
     .logo.alignLeft.center-response {
         float: left;
         text-align: start;
@@ -340,5 +361,13 @@
         float: right;
         font-size: 25px;
         cursor: pointer;
+    }
+}
+@media screen and (max-width: 343px) {
+    .menu-collapse.top-distance-mobile {
+        margin-top: 25px!important;
+    }
+    .register {
+        padding: 7px 29px!important;
     }
 }
