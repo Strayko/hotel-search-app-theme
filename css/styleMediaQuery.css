@@ -557,14 +557,21 @@
         width: 87.5%!important;
     }
 }
-@media screen and (max-width: 640px) {
-    .slider-nav2-r {
-        display: none!important;
+@media screen and (max-width: 451px) {
+    .mobile-none2 {
+        display: none;
     }
-    .slider-nav2-g {
-        display: block!important;
+}
+@media screen and (max-width: 451px) {
+    .recently-box {
+        width: 100%;
     }
-    .cube-box {
-        width: 66%!important;
+}
+@media screen and (max-width: 415px) {
+    .container-box .locationAndStar {
+        width: 12px!important;
+    }
+    .cube-box-footer .location {
+        width: 12px!important;
     }
 }

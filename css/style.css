@@ -362,7 +362,7 @@ body {
     fill: #6dc7c1 !important;
 }
 .container-box .locationAndStar {
-    width: 4.5%;
+    width: 12px;
     fill: #F46767 !important;
     margin-right: 5px;
     display: inline-block;
@@ -479,7 +479,7 @@ body {
     margin: 8px 0px 6px 0px;
 }
 .cube-box-footer .location {
-    width: 4.5%;
+    width: 12px;
     fill: #F46767 !important;
     margin-right: 5px;
     display: inline-block;

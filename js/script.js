@@ -60,16 +60,6 @@ $('.slider-nav2-r').slick({
     speed: 2500,
     arrows: false
 });
-$('.slider-nav2-g').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 0,
-    cssEase: 'linear',
-    speed: 2500,
-    arrows: false
-});
 
 
 $('.slider-for-3').slick({
