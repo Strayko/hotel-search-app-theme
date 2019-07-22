@@ -2001,6 +2001,20 @@ body {
     top: 0;
     z-index: 9999;
 }
-
+.slider-nav-r {
+    display: none!important;
+}
+.slider-nav-s {
+    display: none!important;
+}
+.slider-nav2-s {
+    display: none!important;
+}
+.slider-nav2-r {
+    display: none!important;
+}
+.slider-nav2-g {
+    display: none!important;
+}
 
 /*END GENERAL RULES*/

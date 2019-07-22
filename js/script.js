@@ -9,6 +9,26 @@ $('.slider-nav').slick({
     speed: 900,
     arrows: false
 });
+$('.slider-nav-r').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    // autoplay: true,
+    // autoplaySpeed: 1000,
+    cssEase: 'linear',
+    speed: 900,
+    arrows: false
+});
+$('.slider-nav-s').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: false,
+    // autoplay: true,
+    // autoplaySpeed: 1000,
+    cssEase: 'linear',
+    speed: 900,
+    arrows: false
+});
 
 $('.slider-nav2').slick({
     slidesToShow: 4,
@@ -20,6 +40,37 @@ $('.slider-nav2').slick({
     speed: 2500,
     arrows: false
 });
+$('.slider-nav2-s').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 2500,
+    arrows: false
+});
+$('.slider-nav2-r').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 2500,
+    arrows: false
+});
+$('.slider-nav2-g').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    speed: 2500,
+    arrows: false
+});
+
 
 $('.slider-for-3').slick({
     slidesToShow: 1,
