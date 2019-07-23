@@ -78,6 +78,22 @@ $('.slider-nav-3').slick({
     draggable: false,
     arrows: false
 });
+$('.slider-nav-3-s').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for-3',
+    focusOnSelect: true,
+    draggable: false,
+    arrows: false
+});
+$('.slider-nav-3-r').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for-3',
+    focusOnSelect: true,
+    draggable: false,
+    arrows: false
+});
 
 $('.left').click(function(){
     $('.slider').slick('slickPrev');
