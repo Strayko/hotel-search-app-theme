@@ -1,3 +1,4 @@
+/*START HOMEPAGE MEDIA QUERY*/
 @media screen and (max-width: 1055px) {
     .center-response {
         display: block;
@@ -764,7 +765,7 @@
 }
 @media screen and (max-width: 428px) {
     .testimonials-pic {
-        width: 92%;
+        width: 90%;
     }
     .slider.slider-nav-3-r.slick-initialized.slick-slider {
         margin-left: 121px!important;
@@ -844,7 +845,8 @@
         margin-bottom: 16px;
         position: relative;
         text-align: center;
-        width: 125%;
+        width: 100%;
+        margin-left: 49px!important;
     }
     .footer-right {
         margin-top: 25px;
@@ -883,11 +885,175 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 434px) {
     .footer-social-icon a {
-        margin-right: 50px;
+        margin-right: 55px;
     }
     .footer-social-icon {
-        width: 120%;
+        margin-left: 33px!important;
     }
 }
+/*END HOMEPAGE MEDIA QUERY*/
+
+/*START PLANS&PRICING MEDIA QUERY*/
+@media screen and (max-width: 598px) {
+    #header {
+        height: 240px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 357px) {
+    #header {
+        height: 286px;
+    }
+}
+@media screen and (max-width: 310px) {
+    #header {
+        height: 320px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #plans {
+        width: 100%;
+    }
+    #free {
+        width: 24%;
+        height: 1181px;
+    }
+    #silver {
+        width: 24%;
+        height: 1181px;
+    }
+    #gold {
+        width: 24%;
+        height: 1181px;
+    }
+    #platinum {
+        width: 24%;
+        height: 1181px;
+    }
+}
+@media screen and (max-width: 1009px) {
+    .first-two {
+        display: block;
+    }
+    .second-two {
+        display: block;
+    }
+    #free {
+        width: 49%;
+        height: 1033px;
+    }
+    #silver {
+        width: 49%;
+        height: 1033px;
+    }
+    #gold {
+        width: 49%;
+        height: 1033px;
+    }
+    #platinum {
+        width: 49%;
+        height: 1033px;
+    }
+    .second-two {
+        margin-top: 73px;
+    }
+}
+@media screen and (max-width: 753px) {
+    #free {
+
+        height: 1078px;
+    }
+    #silver {
+
+        height: 1078px;
+    }
+    #gold {
+
+        height: 1078px;
+    }
+    #platinum {
+
+        height: 1078px;
+    }
+}
+@media screen and (max-width: 725px) {
+    #free {
+
+        height: 1130px;
+    }
+    #silver {
+
+        height: 1130px;
+    }
+    #gold {
+
+        height: 1130px;
+    }
+    #platinum {
+
+        height: 1130px;
+    }
+}
+@media screen and (max-width: 585px) {
+    #free {
+        display: block;
+        width: 100%;
+        height: 1046px;
+    }
+    #silver {
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+        height: 1046px;
+    }
+    #gold {
+        display: block;
+        width: 100%;
+        height: 1046px;
+    }
+    #platinum {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        height: 1046px;
+    }
+}
+@media screen and (max-width: 358px) {
+    #free {
+        height: 1088px;
+    }
+    #silver {
+        height: 1088px;
+    }
+    #gold {
+        height: 1088px;
+    }
+    #platinum {
+        height: 1088px;
+    }
+}
+@media screen and (max-width: 294px) {
+    #free {
+        height: 1130px;
+    }
+    #silver {
+        height: 1130px;
+    }
+    #gold {
+        height: 1130px;
+    }
+    #platinum {
+        height: 1130px;
+    }
+}
+@media screen and (max-width: 304px) {
+    .footer-social-icon a {
+        margin-right: 34px;
+    }
+    .footer-social-icon {
+        margin-left: 22px!important;
+    }
+}
+/*END PLANS&PRICING MEDIA QUERY*/

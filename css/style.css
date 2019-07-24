@@ -2060,5 +2060,10 @@ body {
 .slider-nav-3-r {
     display: none!important;
 }
-
+.first-two {
+    display: inline;
+}
+.second-two {
+    display: inline;
+}
 /*END GENERAL RULES*/
