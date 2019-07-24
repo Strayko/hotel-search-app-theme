@@ -39,6 +39,39 @@
     #submit {
         width: 17%;
     }
+    .contact-form-right h4 {
+        font-size: 17px;
+    }
+    .contact-form-right p {
+        font-size: 16px;
+    }
+    .input-style.input-style-margin {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .form-input-first .input-style {
+        width: 86.5%;
+    }
+    .form-input-second .input-style {
+        width: 86.5%;
+    }
+    .form-input-first .fa-home {
+        margin-left: 15px;
+        margin-top: 16px;
+    }
+    .form-input-second .fa-phone-alt {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    .contact-form {
+        height: 546px;
+    }
+    .container-inside-form textarea {
+        width: 86.5%;
+    }
+    #contact {
+        height: 900px;
+    }
 }
 @media screen and (max-width: 1150px) {
     .container {
@@ -1057,3 +1090,208 @@
     }
 }
 /*END PLANS&PRICING MEDIA QUERY*/
+
+/*START CONTACT MEDIA QUERY*/
+@media screen and (max-width: 947px) {
+    .contact-form-left {
+        width: 66%;
+    }
+    .contact-form-right {
+        width: 34%;
+    }
+    .container-inside-form .submit {
+        margin-right: -15px!important;
+    }
+}
+@media screen and (max-width: 1114px) {
+    .container-inside-form .submit {
+        margin-right: -8px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .container-inside-form .submit {
+        margin-right: -10px;
+    }
+}
+@media screen and (max-width: 988px) {
+    .container-inside-form .submit {
+        margin-right: -12px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container-inside-form .submit {
+        margin-right: -20px!important;
+    }
+}
+@media screen and (max-width: 972px) {
+    .contact-left {
+        width: 53%;
+    }
+}
+@media screen and (max-width: 836px) {
+    .container-inside-form .submit {
+        margin-right: -25px!important;
+    }
+    .contact-form-left {
+        width: 100%;
+    }
+    .contact-form-right {
+        display: none;
+    }
+    .form-input-first .input-style {
+        width: 87.5%;
+    }
+    .form-input-second .input-style {
+        width: 87.5%;
+    }
+    .container-inside-form textarea {
+        width: 87.5%;
+    }
+    .container-inside-form .submit {
+        margin-right: 0!important;
+    }
+
+    .contact-left {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right img {
+        float: none;
+        margin-top: 30px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+    #contact {
+        height: 1235px;
+    }
+    .contact-info {
+        color: #fff;
+        display: block;
+        background-color: #6dc7c1;
+        margin-top: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 50px;
+    }
+    .info-1 {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .info-1 h4 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .info-2 {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .info-2 h4 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .info-3 {
+        display: block;
+    }
+    .info-3 h4 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width: 816px) {
+    .container-inside-form .submit {
+        margin-right: -2px!important;
+    }
+}
+@media screen and (max-width: 778px) {
+    .container-inside-form .submit {
+        margin-right: -10px!important;
+    }
+}
+@media screen and (max-width: 694px) {
+    .container-inside-form .submit {
+        margin-right: -11px!important;
+    }
+    .container-inside-form {
+        margin-left: 54px!important;
+    }
+}
+@media screen and (max-width: 646px) {
+    .container-inside-form .submit {
+        margin-right: -18px!important;
+    }
+}
+@media screen and (max-width: 592px) {
+    .container-inside-form .submit {
+        margin-right: -23px!important;
+    }
+}
+@media screen and (max-width: 545px) {
+    .container-inside-form {
+        margin-left: 46px!important;
+    }
+    .container-inside-form .submit {
+        margin-right: -28px!important;
+        width: 110%;
+    }
+}
+@media screen and (max-width: 469px) {
+    .container-inside-form {
+        margin-left: 38px!important;
+    }
+    .container-inside-form .submit {
+        margin-right: -33px!important;
+        width: 115%;
+    }
+}
+@media screen and (max-width: 403px) {
+    .container-inside-form {
+        margin-left: 31px!important;
+    }
+    .container-inside-form .submit {
+        margin-right: -39px!important;
+        width: 119%;
+    }
+}
+@media screen and (max-width: 353px) {
+    .container-inside-form {
+        margin-left: 28px!important;
+    }
+    .container-inside-form .submit {
+        margin-right: -42px!important;
+        width: 125%;
+    }
+}
+@media screen and (max-width: 323px) {
+    .container-inside-form .submit {
+        width: 128%;
+    }
+}
+@media screen and (max-width: 493px) {
+    .contact-right img {
+        width: 73%;
+    }
+}
+@media screen and (max-width: 319px) {
+    .container-inside-form h3 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 358px) {
+    #contact {
+        height: 1276px;
+    }
+}
+@media screen and (max-width: 297px) {
+    #contact {
+        height: 1316px;
+    }
+}
+/*END CONTACT MEDIA QUERY*/
