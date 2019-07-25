@@ -14,6 +14,9 @@
     .main-slider {
         width: 80%;
     }
+    .restaurants-content .restaurant-box {
+        width: 29%!important;
+    }
     .restaurant-box {
         width: 90%;
         height: 100%;
@@ -1295,3 +1298,57 @@
     }
 }
 /*END CONTACT MEDIA QUERY*/
+
+/*START RESTAURANTS MEDIA QUERY*/
+@media screen and (max-width: 991px) {
+    .restaurants-content .restaurant-box {
+        width: 28%!important;
+    }
+    .restaurants-content .restaurant-box .container-box-header .star {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .restaurants-content .restaurant-box .container-box .container-box-footer p .mobile-none {
+        display: none;
+    }
+}
+@media screen and (max-width: 910px) {
+    .restaurants-content .restaurant-box {
+        width: 37%!important;
+    }
+    #restaurants {
+        text-align: center;
+    }
+    .restaurants-content .restaurant-box .container-box .container-box-footer {
+        text-align: start;
+    }
+    .restaurants-content {
+        padding-left: 30px;
+    }
+    .mobile-none-restaurant {
+        display: none;
+    }
+    .pagination {
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .restaurants-content .restaurant-box {
+        width: 73%!important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .restaurants-content .restaurant-box {
+        width: 88%!important;
+    }
+}
+@media screen and (max-width: 340px) {
+    .mobile-none-pagination {
+        display: none!important;
+    }
+    .pagination-last-bottom {
+        margin-left: -37px;
+    }
+}
+/*END RESTAURANTS MEDIA QUERY*/
