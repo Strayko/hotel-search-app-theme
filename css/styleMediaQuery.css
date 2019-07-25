@@ -768,6 +768,9 @@
         margin-top: 255px!important;
         text-align: center;
     }
+    .main-3 {
+        margin-left: -12px;
+    }
     .fas.fa-quote-left {
         display: none;
     }
@@ -790,6 +793,9 @@
         margin-left: 70%!important;
         width: 8%!important;
         margin-top: 168px!important;
+    }
+    .main-3 .slick-slider {
+        margin-left: 26%!important;
     }
 
 }
@@ -822,7 +828,7 @@
 }
 @media screen and (max-width: 368px) {
     .slider.slider-nav-3-r.slick-initialized.slick-slider {
-        margin-left: 100px!important;
+        margin-left: 104px!important;
     }
 }
 @media screen and (max-width: 342px) {
@@ -1043,6 +1049,11 @@
         width: 100%;
         margin-top: 70px;
         height: 1046px;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
     }
     #gold {
         display: block;
@@ -1052,7 +1063,7 @@
     #platinum {
         display: block;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 70px;
         height: 1046px;
     }
 }
@@ -1333,22 +1344,56 @@
         padding-left: 20px;
     }
 }
-@media screen and (max-width: 630px) {
-    .restaurants-content .restaurant-box {
-        width: 73%!important;
-    }
-}
-@media screen and (max-width: 450px) {
-    .restaurants-content .restaurant-box {
-        width: 88%!important;
-    }
-}
+/*@media screen and (max-width: 630px) {*/
+/*    .restaurants-content .restaurant-box {*/
+/*        width: 73%!important;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 450px) {*/
+/*    .restaurants-content .restaurant-box {*/
+/*        width: 88%!important;*/
+/*    }*/
+/*}*/
 @media screen and (max-width: 340px) {
     .mobile-none-pagination {
         display: none!important;
     }
     .pagination-last-bottom {
         margin-left: -37px;
+    }
+}
+@media screen and (max-width: 844px) {
+    .container {
+        width: 82%!important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container-inside-form .submit {
+        width: 120%;
+    }
+}
+@media screen and (max-width: 910px) {
+    .restaurants-content {
+        padding-left: 0;
+        width: 130%;
+        margin-left: -10%!important;
+    }
+}
+@media screen and (max-width: 367px) {
+    .container-box h4 {
+        font-size: 15px;
+    }
+    .container-box p {
+        font-size: 14px;
+    }
+    .container-box .locationAndStar {
+        width: 10%!important;
+    }
+    .pagination .pagination-left {
+        margin-left: -73px;
+    }
+    .pagination-last-bottom {
+        margin-left: -24px!important;
     }
 }
 /*END RESTAURANTS MEDIA QUERY*/

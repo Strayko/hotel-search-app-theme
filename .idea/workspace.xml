@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1df6d9-017d-4e46-8dfe-b8ae25c64a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styleMediaQuery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleMediaQuery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plans&amp;pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/plans&amp;pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttt.zip" beforeDir="false" afterPath="$PROJECT_DIR$/ttt.zip" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/restaurants.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="111">
-              <caret line="211" column="62" lean-forward="true" selection-start-line="211" selection-start-column="62" selection-end-line="211" selection-end-column="62" />
+              <caret line="211" column="62" selection-start-line="211" selection-start-column="62" selection-end-line="211" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -38,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styleMediaQuery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="1350" column="27" selection-start-line="1350" selection-start-column="27" selection-end-line="1350" selection-end-column="27" />
+            <state relative-caret-position="146">
+              <caret line="1378" column="26" selection-start-line="1378" selection-start-column="26" selection-end-line="1378" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15390">
-              <caret line="1026" column="22" selection-start-line="1026" selection-start-column="22" selection-end-line="1026" selection-end-column="29" />
+            <state relative-caret-position="116">
+              <caret line="924" column="4" selection-start-line="924" selection-start-column="4" selection-end-line="928" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -84,11 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header-inpu</find>
-      <find>fa-box</find>
-      <find>admin2-menu</find>
-      <find>.create-form .label-grey-image-r</find>
-      <find>create-input</find>
       <find>box-sha</find>
       <find>.dashboard-table table tr td a</find>
       <find>blue</find>
@@ -114,6 +105,11 @@
       <find>.right-circle</find>
       <find>testimonials-pic</find>
       <find>1200</find>
+      <find>scale</find>
+      <find>720</find>
+      <find>27.5</find>
+      <find>100</find>
+      <find>.restaurants-content</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -180,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="174" />
+    <option name="x" value="165" />
+    <option name="y" value="152" />
     <option name="width" value="1201" />
     <option name="height" value="426" />
   </component>
@@ -298,12 +294,12 @@
       <workItem from="1563961525521" duration="46000" />
       <workItem from="1563966608461" duration="5318000" />
       <workItem from="1563972217209" duration="5129000" />
-      <workItem from="1564035623156" duration="4762000" />
+      <workItem from="1564035623156" duration="9976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374762000" />
+    <option name="totallyTimeSpent" value="379976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +311,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="174" width="1201" height="426" extended-state="0" />
+    <frame x="165" y="152" width="1201" height="426" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4814815" visible="true" weight="0.19779287" />
@@ -673,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15390">
-          <caret line="1026" column="22" selection-start-line="1026" selection-start-column="22" selection-end-line="1026" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -713,14 +702,21 @@
     <entry file="file://$PROJECT_DIR$/restaurants.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
-          <caret line="211" column="62" lean-forward="true" selection-start-line="211" selection-start-column="62" selection-end-line="211" selection-end-column="62" />
+          <caret line="211" column="62" selection-start-line="211" selection-start-column="62" selection-end-line="211" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="924" column="4" selection-start-line="924" selection-start-column="4" selection-end-line="928" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styleMediaQuery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1350" column="27" selection-start-line="1350" selection-start-column="27" selection-end-line="1350" selection-end-column="27" />
+        <state relative-caret-position="146">
+          <caret line="1378" column="26" selection-start-line="1378" selection-start-column="26" selection-end-line="1378" selection-end-column="26" />
         </state>
       </provider>
     </entry>
