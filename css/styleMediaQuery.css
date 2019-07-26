@@ -1397,3 +1397,82 @@
     }
 }
 /*END RESTAURANTS MEDIA QUERY*/
+
+/*START SIGN IN MEDIA QUERY*/
+@media screen and (max-width: 1200px) {
+    .signin-container {
+        width: 64%!important;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .content-signin {
+        margin-left: 16%;
+    }
+    .content-signin .signin-input {
+        width: 67%;
+    }
+    .login-content-btn {
+        margin-right: 21%!important;
+    }
+    .signin-forgot-pass {
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .content-signin .p-lead a {
+        margin-left: 0;
+        display: block;
+    }
+    .login-content-btn {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 698px) {
+    .signin-container {
+        margin: 80px 0 0 0;
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 1012px) {
+    .login-content-btn {
+        width: 81%;
+        margin-right: 20%!important;
+    }
+}
+@media screen and (max-width: 538px) {
+    .login-content-btn {
+        width: 82%!important;
+        margin-right: 17%!important;
+    }
+}
+@media screen and (max-width: 458px) {
+    .content-signin img {
+        width: 77%;
+    }
+    .login-content-btn {
+        width: 84%!important;
+        margin-right: 15%!important;
+    }
+}
+@media screen and (max-width: 458px) {
+    .login-content-btn {
+        width: 85%!important;
+        margin-right: 14%!important;
+    }
+}
+@media screen and (max-width: 382px) {
+    .login-content-btn {
+        width: 86%!important;
+        margin-right: 13%!important;
+    }
+    .content-signin {
+        margin-left: 13%;
+    }
+}
+@media screen and (max-width: 354px) {
+    .login-content-btn {
+        width: 87%!important;
+        margin-right: 12%!important;
+    }
+}
+/*END SIGN IN MEDIA QUERY*/
