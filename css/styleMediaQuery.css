@@ -1459,6 +1459,9 @@
         width: 85%!important;
         margin-right: 14%!important;
     }
+    .content-signin h4 {
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 382px) {
     .login-content-btn {
@@ -1474,5 +1477,168 @@
         width: 87%!important;
         margin-right: 12%!important;
     }
+    .content-signin {
+        margin-left: 11%!important;
+    }
+}
+@media screen and (max-width: 328px) {
+    .content-signin {
+        margin-left: 10%!important;
+    }
 }
 /*END SIGN IN MEDIA QUERY*/
+
+/*START REGISTER MEDIA QUERY*/
+@media screen and (max-width: 824px) {
+    .register-container h4 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 677px) {
+    .register-container h4 {
+        font-size: 22px;
+    }
+    .register-container .register-input {
+        width: 84%;
+    }
+    .register-container select {
+        width: 99%;
+    }
+}
+@media screen and (max-width: 677px) {
+    .register-container select {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .register-container select {
+        width: 101%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .register-container select {
+        width: 102%;
+    }
+}
+@media screen and (max-width: 587px) {
+    .register-container select {
+        width: 97%;
+    }
+    .register-content {
+        height: 643px;
+    }
+    .register-content img {
+        margin-top: 66px;
+    }
+    .register-container h4 {
+        margin-top: 28px!important;
+    }
+    .upload-btn-wrapper {
+        display: block;
+        width: 104%;
+    }
+    .register-container {
+        margin: 25px 25px 25px;
+    }
+    .register-container .register-submit {
+        margin-top: 15px;
+        width: 97%;
+        margin-left: 0;
+        float: none;
+    }
+    .btn {
+        width: 93.3%;
+    }
+}
+@media screen and (max-width: 551px) {
+    .register-container .register-submit {
+        width: 98.2%;
+    }
+    .btn {
+        width: 94.3%;
+    }
+    .register-container select {
+        width: 98.2%;
+    }
+}
+@media screen and (max-width: 551px) {
+    .register-container .register-submit {
+        width: 99.2%;
+    }
+    .btn {
+        width: 95.3%;
+    }
+    .register-container select {
+        width: 99.2%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .register-container .register-submit {
+        width: 100.2%;
+    }
+    .btn {
+        width: 96.3%;
+    }
+    .register-container select {
+        width: 100.2%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .register-container .register-input {
+        width: 83%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .register-container .register-input {
+        width: 82%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .register-container .register-input {
+        width: 81%;
+    }
+}
+@media screen and (max-width: 368px) {
+    .register-container .register-input {
+        width: 79%;
+    }
+}
+@media screen and (max-width: 348px) {
+    .register-container .register-input {
+        width: 78%;
+    }
+}
+@media screen and (max-width: 328px) {
+    .register-container .register-input {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 310px) {
+    .register-container .register-input {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .register-container .register-input {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 290px) {
+    .register-container .register-input {
+        width: 73%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .register-container .register-input {
+        width: 72%;
+    }
+}
+@media screen and (max-width: 386px) {
+    .register-content img {
+        width: 93%;
+    }
+    .register-container h4 {
+        font-size: 18px;
+    }
+}
+/*END REGISTER MEDIA QUERY*/

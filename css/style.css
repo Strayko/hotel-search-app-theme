@@ -1352,7 +1352,7 @@ body {
 /*START SIGN IN*/
 #signin {
     background-image: url('../img/contact_bg.png');
-    height: 840px;
+    height: 755px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -1360,7 +1360,7 @@ body {
 .signin-container {
     width: 55%;
     position: relative;
-    height: 600px;
+    height: 530px;
     background-color: white;
     margin: 80px auto 0 auto;
     -webkit-border-radius: 10px;
@@ -1372,7 +1372,7 @@ body {
 }
 .content-signin img {
     width: 250px;
-    margin: 80px 0 70px 0;
+    margin: 60px 0 36px 0;
 }
 .content-signin .signin-input {
     display: block;
