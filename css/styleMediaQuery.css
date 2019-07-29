@@ -1648,6 +1648,9 @@
 
 /*START RENEW ACCOUNT MEDIA QUERY*/
 @media screen and (max-width: 615px) {
+    .resetPassword-box {
+        width: 100%;
+    }
     .newPassword-box {
         width: 100%;
     }
@@ -1733,3 +1736,7 @@
     }
 }
 /*END RENEW ACCOUNT MEDIA QUERY*/
+
+/*START RESET PASSWORD MEDIA QUERY*/
+
+/*END RESET PASSWORD MEDIA QUERY*/

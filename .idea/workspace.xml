@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1df6d9-017d-4e46-8dfe-b8ae25c64a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styleMediaQuery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleMediaQuery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/renewAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttt.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/newPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resetPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/resetPassword.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,15 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restaurants.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6990">
-              <caret line="466" column="4" selection-start-line="466" selection-start-column="4" selection-end-line="470" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/signIn.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -44,14 +34,27 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resetPassword.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1009">
+              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renewAccount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="195">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="55" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newPassword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="110" selection-start-line="110" selection-end-line="114" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styleMediaQuery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="1728" column="1" selection-start-line="1728" selection-start-column="1" selection-end-line="1728" selection-end-column="1" />
+            <state relative-caret-position="155">
+              <caret line="1651" column="20" selection-start-line="1651" selection-start-column="20" selection-end-line="1651" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -164,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin2/users/index.html" />
-        <option value="$PROJECT_DIR$/admin2/users/edit.html" />
         <option value="$PROJECT_DIR$/admin2/users/create.html" />
         <option value="$PROJECT_DIR$/admin2/restaurants/index.html" />
         <option value="$PROJECT_DIR$/admin2/restaurants/create.html" />
@@ -214,6 +215,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/renewAccount.html" />
+        <option value="$PROJECT_DIR$/newPassword.html" />
+        <option value="$PROJECT_DIR$/resetPassword.html" />
         <option value="$PROJECT_DIR$/css/styleMediaQuery.css" />
       </list>
     </option>
@@ -340,12 +343,12 @@
       <workItem from="1564035623156" duration="10576000" />
       <workItem from="1564121177870" duration="9079000" />
       <workItem from="1564139728038" duration="1251000" />
-      <workItem from="1564408496664" duration="1162000" />
+      <workItem from="1564408496664" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392068000" />
+    <option name="totallyTimeSpent" value="393030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,13 +407,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin2/packages/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin2/locations/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -742,9 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resetPassword.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/signIn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -754,15 +747,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renewAccount.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="195">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="110" selection-start-line="110" selection-end-line="114" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resetPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styleMediaQuery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="1728" column="1" selection-start-line="1728" selection-start-column="1" selection-end-line="1728" selection-end-column="1" />
+        <state relative-caret-position="155">
+          <caret line="1651" column="20" selection-start-line="1651" selection-start-column="20" selection-end-line="1651" selection-end-column="20" />
         </state>
       </provider>
     </entry>
