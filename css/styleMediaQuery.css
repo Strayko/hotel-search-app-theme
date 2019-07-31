@@ -1737,6 +1737,216 @@
 }
 /*END RENEW ACCOUNT MEDIA QUERY*/
 
-/*START RESET PASSWORD MEDIA QUERY*/
+/*START RESTAURANT DETAILS MEDIA QUERY*/
+@media screen and (max-width: 398px) {
+    .single-page-header {
+        font-size: 35px!important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .restaurant-right-box {
+        width: 24%;
+    }
+    .p-lead-bottom {
+        display: block;
+        width: 100%;
+        margin-top: -1px!important;
+    }
+}
+@media screen and (max-width: 1052px) {
+    .title-address {
+        float: none;
+        display: block;
+        margin-left: 0;
+        margin-top: 9px;
+    }
+    .recently-img {
+        float: none;
+        display: block;
+    }
+}
+@media screen and (max-width: 917px) {
+    .restaurant-right-box {
+        float: none;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .title-body h2 {
+        float: none;
+    }
+    .title-body .p-lead {
+        float: left;
+    }
+    .title-body .star {
+        float: none;
+    }
+}
+@media screen and (max-width: 917px) {
+    .restaurant-left-box {
+        float: none;
+        width: 100%;
+    }
+    .gallery-img .single-img {
+        width: 31.7%;
+        height: 93%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .title-body h2 {
+        font-size: 30px;
+    }
+    .d-block {
+        position: absolute;
+        margin-top: 34px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .img-title {
+        height: 380px;
+    }
+}
+@media screen and (max-width: 586px) {
+    .img-title {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .img-title {
+        height: 230px;
+    }
+}
+@media screen and (max-width: 315px) {
+    .img-title {
+        height: 169px;
+    }
+}
+@media screen and (max-width: 396px) {
+    .title-body-2 .p-lead {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .title-body h2 {
+        font-size: 23px;
+    }
+    .title-body .p-lead {
+        font-size: 15px;
+    }
+    .title-body .star {
+        width: 15px;
+        margin-top: 18px;
+    }
+}
+@media screen and (max-width: 347px) {
+    .title-body-2 .p-lead {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .title-body-2 .p-lead-litle {
 
-/*END RESET PASSWORD MEDIA QUERY*/
+        display: block;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .d-block {
+        margin-top: 13px;
+    }
+}
+@media screen and (max-width: 626px) {
+    .contact-email-social-2 {
+        width: 28%;
+    }
+    .contact-restaurant-content .p-title-2 {
+        margin-left: 10%;
+    }
+    .contact-pdf a {
+        margin-left: 46%;
+        float: none;
+    }
+}
+@media screen and (max-width: 626px) {
+    .contact-email-social-2 {
+        width: 29%;
+    }
+}
+@media screen and (max-width: 584px) {
+    .contact-email-social-2 {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 552px) {
+    .contact-email-social-2 {
+        width: 31%;
+    }
+}
+@media screen and (max-width: 528px) {
+    .contact-email-social-2 {
+        width: 32%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact-email-social-2 {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact-email-social-2 {
+        width: 34%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .contact-email-social-2 {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .contact-email-social-2 {
+        width: 36%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .contact-email-social-2 {
+        width: 37%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .contact-email-social-2 {
+        width: 39%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .contact-email-social-2 {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 583px) {
+    .contact-pdf a {
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 517px) {
+    .contact-pdf a {
+        margin-left: 0;
+        margin-top: 72px;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 400px) {
+    .contact-restaurant-content .p-title-2 {
+        display: none;
+    }
+    .contact-email-social-2 {
+        display: block!important;
+    }
+    .contact-email-social-2 a {
+        float: left;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .contact-address {
+        margin-top: -10px;
+    }
+}
+/*END RESTAURANT DETAILS MEDIA QUERY*/

@@ -8,6 +8,7 @@
 
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="stylesheet" href="css/styleMediaQuery.css" type="text/css" >
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/003e33b51d.js"></script>
@@ -29,19 +30,24 @@
     <section id="menu" class="menu">
         <div class="container-menu">
 
-            <div class="logo alignLeft">
+            <div class="logo alignLeft center-response">
                 <a href="index.html"><img src="img/logo.svg" class="logo-img" alt=""></a>
             </div>
 
-            <nav class="navbar">
+            <a class="toggle-menu-link" href="javascript:void(0);" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <nav class="navbar" id="navbar">
                 <!--<div class="burger-nav"></div>-->
-                <ul class="nav alignRight">
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="plans&pricing.html">Plans&Pricing</a></li>
-                    <li><a href="restaurants.html">Restaurants</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="signIn.html" class="sign-in">Sign in</a></li>
-                    <li><a href="register.html" class="register">Register</a></li>
+                <ul class="nav alignRight center-response">
+                    <li><a class="mobile-font" href="index.html">Homepage</a></li>
+                    <li><a class="mobile-font" href="plans&pricing.html">Plans&Pricing</a></li>
+                    <li><a class="mobile-font" href="restaurants.html">Restaurants</a></li>
+                    <li><a class="mobile-font" href="contact.html">Contact</a></li>
+                    <li class="menu-buttons-block">
+                    <li class="menu-collapse"><a href="signIn.html" class="sign-in">Sign in</a></li>
+                    <li class="menu-collapse top-distance-mobile"><a href="register.html" class="register">Register</a></li>
                 </ul>
             </nav>
 
@@ -52,7 +58,7 @@
     <!-- START HEADER -->
     <section id="header">
         <div class="container">
-            <h2>Restaurant details</h2>
+            <h2 class="single-page-header">Restaurant details</h2>
             <p class="p-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi nostrum nulla, omnis temporibus voluptatem.</p>
         </div>
     </section>
@@ -78,8 +84,10 @@
                     <p class="p-lead">OPEN - Closes as 10PM</p>
                     <p class="p-lead-litle">PIZZA</p>
                     <p class="p-lead-litle">GRILL</p>
-                    <p class="p-comments">34 Comments</p>
-                    <img src="img/chat-minify.svg" alt="">
+                    <div class="d-block">
+                        <p class="p-comments">34 Comments</p>
+                        <img src="img/chat-minify.svg" alt="">
+                    </div>
                 </div>
                 <div class="only-text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolore eius expedita libero minus qui repellat veniam. Culpa cum excepturi exercitationem incidunt iste quod reprehenderit. Accusantium aperiam consequuntur ea, exercitationem nisi ratione sed. Consequuntur expedita fugit laboriosam minus odio, repellat vitae voluptatem? Explicabo iure minima, pariatur perspiciatis quaerat quos temporibus.</p>
@@ -313,5 +321,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
 <script src="js/script.js"></script>
+    <script>
+        $('.toggle-menu-link').click( function() {
+            $("#navbar").toggleClass("navbar").css({"display": "block!important"});
+        } );
+    </script>
 </body>
 </html>
