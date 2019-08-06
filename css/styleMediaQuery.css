@@ -1949,4 +1949,130 @@
         margin-top: -10px;
     }
 }
+@media screen and (max-width: 572px) {
+    .gallery-img .single-img {
+        width: 47.7%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .gallery-img .single-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 367px) {
+    .pagi-none {
+        display: none!important;
+    }
+    .pagination-last-bottom {
+        margin-left: 2px!important;
+    }
+}
+@media screen and (max-width: 670px) {
+    .comments-title-body {
+        width: 100%;
+        margin-left: 0;
+    }
+    .comments-image {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .leave-a-comment textarea {
+        width: 92%;
+    }
+}
+@media screen and (max-width: 716px) {
+    .leave-a-comment textarea {
+        width: 91%;
+    }
+}
+@media screen and (max-width: 578px) {
+    .leave-a-comment textarea {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 488px) {
+    .leave-a-comment textarea {
+        width: 89%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .leave-a-comment textarea {
+        width: 88%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .leave-a-comment textarea {
+        width: 87%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .leave-a-comment textarea {
+        width: 86%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .leave-a-comment textarea {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .leave-a-comment textarea {
+        width: 84%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .leave-a-comment textarea {
+        width: 83%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .leave-a-comment textarea {
+        width: 82%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .leave-a-comment textarea {
+        width: 81%;
+    }
+}
+@media screen and (max-width: 917px) {
+    .restaurant-right-box {
+        margin-left: 0;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .restaurant-category .p-lead {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .recently-single-restaurant {
+        display: inline-block;
+        width: 30%;
+    }
+    .recently-divider {
+        display: none;
+    }
+    .restaurant-recently-added hr {
+        display: none;
+    }
+    .recently-img {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 533px) {
+    .recently-single-restaurant {
+        width: 49%;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .recently-single-restaurant {
+        width: 100%;
+    }
+    .recently-img {
+        width: 100%;
+    }
+}
 /*END RESTAURANT DETAILS MEDIA QUERY*/
