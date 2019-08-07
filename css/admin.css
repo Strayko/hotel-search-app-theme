@@ -1005,3 +1005,15 @@ label[for=upload]:hover {
 #back-button {
     padding: 10px 30px 10px 30px;
 }
+.toggle-menu-link {
+    display: none;
+}
+.admin-menu-name {
+    display: none;
+}
+.logout-menu-show {
+    display: none;
+}
+.home-menu-toggle {
+    display: none;
+}
