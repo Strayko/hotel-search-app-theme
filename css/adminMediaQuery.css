@@ -123,5 +123,251 @@
         padding-left: 0;
     }
 }
+@media screen and (max-width: 539px) {
+    .dashboard-right-box .green-box {
+        width: 99%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 99%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 99%;
+    }
+    .dashboard-table-top-margin {
+        width: 79%;
+    }
+}
+@media screen and (max-width: 519px) {
+    .dashboard-right-box .green-box {
+        width: 98%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 98%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 98%;
+    }
+    .dashboard-table-top-margin {
+        width: 78%;
+    }
+}
+@media screen and (max-width: 499px) {
+    .dashboard-right-box .green-box {
+        width: 97%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 97%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 97%;
+    }
+    .dashboard-table-top-margin {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 459px) {
+    .dashboard-right-box .green-box {
+        width: 96%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 96%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 96%;
+    }
+    .dashboard-table-top-margin {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .dashboard-right-box .green-box {
+        width: 95%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 95%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 95%;
+    }
+    .dashboard-table-top-margin {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .dashboard-right-box .green-box {
+        width: 94%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 94%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 94%;
+    }
+    .dashboard-table-top-margin {
+        width: 73%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .dashboard-right-box .green-box {
+        width: 93%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 93%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 93%;
+    }
+    .dashboard-table-top-margin {
+        width: 72%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .dashboard-right-box .green-box {
+        width: 92%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 92%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 92%;
+    }
+    .dashboard-table-top-margin {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .dashboard-right-box .green-box {
+        width: 91%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 91%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 91%;
+    }
+    .dashboard-table-top-margin {
+        width: 69%;
+    }
+}
+@media screen and (max-width: 330px) {
+    .dashboard-right-box .green-box {
+        width: 89%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 89%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 89%;
+    }
+    .dashboard-table-top-margin {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .dashboard-right-box .green-box {
+        width: 88%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 88%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 88%;
+    }
+    .dashboard-table-top-margin {
+        width: 66%;
+    }
+}
+@media screen and (max-width: 310px) {
+    .dashboard-right-box .green-box {
+        width: 87%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 87%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 87%;
+    }
+    .dashboard-table-top-margin {
+        width: 64%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .dashboard-right-box .green-box {
+        width: 86%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 86%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 86%;
+    }
+    .dashboard-table-top-margin {
+        width: 63%;
+    }
+    .dashboard-header .fa-home {
+        font-size: 23px;
+        margin-top: 22px!important;
+    }
+    .dashboard-header h2 {
+        font-size: 23px;
+        margin-top: 24px!important;
+    }
+}
+@media screen and (max-width: 290px) {
+    .dashboard-right-box .green-box {
+        width: 85%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 85%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 85%;
+    }
+    .dashboard-table-top-margin {
+        width: 62%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .dashboard-right-box .green-box {
+        width: 84%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 84%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 84%;
+    }
+    .dashboard-table-top-margin {
+        width: 61%;
+    }
+}
+@media screen and (max-width: 270px) {
+    .dashboard-right-box .green-box {
+        width: 83%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 83%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 83%;
+    }
+    .dashboard-table-top-margin {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 260px) {
+    .dashboard-right-box .green-box {
+        width: 84%;
+    }
+    .dashboard-right-box .blue-box {
+        width: 82%;
+    }
+    .dashboard-right-box .yellow-box {
+        width: 82%;
+    }
+    .dashboard-table-top-margin {
+        width: 59%;
+    }
+}
 /*END DASHBOARD*/
 /*END MAIN ADMIN PANEL*/
