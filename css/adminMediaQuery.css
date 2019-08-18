@@ -9,13 +9,16 @@
     .dashboard-right-box .green-box {
         display: inline-block;
         margin-right: 6%;
+        width: 29%;
     }
     .dashboard-right-box .blue-box {
         display: inline-block;
         margin-right: 6%;
+        width: 29%;
     }
     .dashboard-right-box .yellow-box {
         display: inline-block;
+        width: 29%;
     }
     .dashboard-right-box {
         margin-left: 38px;
@@ -47,6 +50,9 @@
         position: absolute;
         z-index: 9999;
     }
+    .dashboard-right-box {
+        width: 83.5%;
+    }
 }
 @media screen and (max-width: 751px) {
     .dashboard-table-top-margin {
@@ -66,7 +72,7 @@
 }
 @media screen and (max-width: 559px) {
     .dashboard-right-box {
-        width: 86%;
+        width: 85.5%!important;
     }
     .dashboard-table-top-margin {
         margin-top: 334px;
@@ -369,5 +375,313 @@
         width: 59%;
     }
 }
+@media screen and (max-width: 1099px) {
+    .dashboard-right-box .green-box {
+        margin-right: 5.9%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 5.9%;
+    }
+}
+@media screen and (max-width: 797px) {
+    .dashboard-right-box .green-box {
+        margin-right: 5.8%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 5.8%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .dashboard-right-box {
+        width: 84%;
+    }
+}
+@media screen and (max-width: 612px) {
+    .dashboard-right-box .green-box {
+        margin-right: 5.5%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 5.5%;
+    }
+}
+@media screen and (max-width: 608px) {
+    .dashboard-right-box .green-box {
+        margin-right: 5%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 601px) {
+    .dashboard-right-box .green-box {
+        margin-right: 4.5%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 4.5%;
+    }
+}
+@media screen and (max-width: 595px) {
+    .dashboard-right-box .green-box {
+        margin-right: 4%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 4%;
+    }
+}
+@media screen and (max-width: 588px) {
+    .dashboard-right-box .green-box {
+        margin-right: 3%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 3%;
+    }
+}
+@media screen and (max-width: 577px) {
+    .dashboard-right-box .green-box {
+        margin-right: 2%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 564px) {
+    .dashboard-right-box .green-box {
+        margin-right: 1%;
+    }
+    .dashboard-right-box .blue-box {
+        margin-right: 1%;
+    }
+}
 /*END DASHBOARD*/
+
+/*START RESTAURANTS*/
+@media screen and (max-width: 1310px) {
+    .search-inputs .search {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .search-inputs .search {
+        width: 47%;
+    }
+}
+@media screen and (max-width: 1083px) {
+    .search-inputs .search {
+        width: 40%;
+    }
+    #restaurants-table {
+        width: 88%;
+    }
+    .add-button-box {
+        width: 21.5%;
+    }
+    .sorting-button-box {
+        width: 21.5%;
+    }
+}
+@media screen and (max-width: 1248px) {
+    #restaurants-table table tr td .blue {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    #restaurants-table table tr td .red-input {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 11px;
+    }
+    .dashboard-table .center-buttons {
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 984px) {
+    .search-inputs .search {
+        width: 33%;
+    }
+    .add-button-box {
+        width: 25%;
+    }
+    .sorting-button-box {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 822px) {
+    #restaurants-table {
+        width: 87%;
+        overflow: scroll!important;
+    }
+    .search-inputs .search {
+        width: 32%;
+    }
+}
+@media screen and (max-width: 777px) {
+    #restaurants-table {
+        width: 86%;
+    }
+    .search-inputs .search {
+        width: 31%;
+    }
+}
+@media screen and (max-width: 739px) {
+    .search-inputs .search {
+        width: 81%;
+    }
+    #restaurants-table {
+        width: 85%;
+    }
+    .add-button-box {
+        width: 45%;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .sorting-button-box {
+        width: 45%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    #restaurants-table {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 680px) {
+    #restaurants-table {
+        width: 82%;
+    }
+    .search-inputs {
+        width: 97%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #restaurants-table {
+        width: 81%;
+    }
+    .search-inputs {
+        width: 96%;
+    }
+}
+@media screen and (max-width: 550px) {
+    #restaurants-table {
+        width: 80%;
+    }
+    .search-inputs {
+        width: 93%;
+    }
+    .search-inputs .header-inputs-tirkiz {
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .add-button-box {
+        width: 103%;
+        display: block;
+    }
+    .sorting-button-box {
+        width: 103%;
+        margin-left: 28px;
+        display: block;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .search-inputs {
+        width: 90%;
+    }
+    #restaurants-table {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .search-inputs .search {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .search-inputs {
+        width: 89%;
+    }
+    #restaurants-table {
+        width: 76%;
+    }
+    .search-inputs .search {
+        width: 79%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .search-inputs {
+        width: 88%;
+    }
+    #restaurants-table {
+        width: 75%;
+    }
+    .search-inputs .search {
+        width: 78%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .search-inputs {
+        width: 84%;
+    }
+    #restaurants-table {
+        width: 72%;
+    }
+    .search-inputs .search {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .search-inputs {
+        width: 81%;
+    }
+    #restaurants-table {
+        width: 69%;
+    }
+    .search-inputs .search {
+        width: 77%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .search-inputs {
+        width: 79%;
+    }
+    #restaurants-table {
+        width: 67%;
+    }
+    .search-inputs .search {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .search-inputs {
+        width: 78%;
+    }
+    #restaurants-table {
+        width: 66%;
+    }
+    .search-inputs .search {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .search-inputs {
+        width: 75%;
+    }
+    #restaurants-table {
+        width: 63%;
+    }
+    .search-inputs .search {
+        width: 74%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .search-inputs {
+        width: 73%;
+    }
+    #restaurants-table {
+        width: 61%;
+    }
+    .search-inputs .search {
+        width: 73%;
+    }
+}
+/*END RESTAURANTS*/
 /*END MAIN ADMIN PANEL*/

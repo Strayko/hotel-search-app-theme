@@ -546,7 +546,7 @@ body {
     margin-left: 40px;
     border: none;
     padding: 13px 13px 13px 40px;
-    width: 573px;
+    width: 49%;
 }
 .search-inputs .search-2 {
     margin-top: 20px;
@@ -611,11 +611,11 @@ body {
 }
 .add-button-box {
     display: inline-block;
-    width: 229px;
+    width: 19.5%;
 }
 .sorting-button-box {
     display: inline-block;
-    width: 229px;
+    width: 19.5%;
 }
 /*END INDEX RESTAURANT*/
 
