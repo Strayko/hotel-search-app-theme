@@ -1017,3 +1017,6 @@ label[for=upload]:hover {
 .home-menu-toggle {
     display: none;
 }
+.mobile-browse {
+    display: none;
+}

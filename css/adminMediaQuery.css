@@ -683,5 +683,248 @@
         width: 73%;
     }
 }
+@media screen and (max-width: 1291px) {
+    .create-form .create-form-input {
+        width: 100%;
+    }
+    .form-left {
+        width: 43%;
+    }
+    .form-right {
+        width: 46%;
+    }
+    .create-form .create-form-select {
+        width: 105%;
+    }
+    .create-form .create-form-textarea {
+        width: 100%;
+    }
+    .create-form .label-grey-image-r {
+        float: left;
+        margin-top: 5px;
+    }
+    .create-form .label-grey-image {
+        float: left;
+        margin-top: 5px;
+    }
+    .input-file {
+        float: right;
+        margin-left: 0;
+    }
+    .upload-image .between-fields {
+        clear: both;
+    }
+}
+@media screen and (max-width: 1241px) {
+    .create-form {
+        width: 81%;
+    }
+}
+@media screen and (max-width: 1054px) {
+    .form-right {
+        width: 45%;
+    }
+    .form-left {
+        width: 42%;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .form-buttons .form-previous {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .form-buttons .form-next {
+        padding-right: 33px;
+        padding-left: 33px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .create-form {
+        width: 78%;
+    }
+}
+@media screen and (max-width: 808px) {
+    .form-left {
+        width: 97%;
+    }
+    .form-right {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .form-right .google-maps {
+        display: none;
+    }
+    .form-buttons {
+        margin-top: 50px;
+        display: flex;
+        float: right;
+    }
+    .form-buttons .form-next {
+        float: right;
+    }
+    .form-buttons .form-previous {
+        float: right;
+    }
+    #dashboard-content-restaurant {
+        height: 931px;
+    }
+    #admin-navbar-restaurant {
+        height: 1064px;
+    }
+    .create-form .create-form-select {
+        width: 103%;
+    }
+    .create-form {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 717px) {
+    .create-form {
+        width: 74%;
+    }
+    .create-form .create-form-select {
+        width: 104%;
+    }
+}
+@media screen and (max-width: 692px) {
+    .create-form {
+        width: 72%;
+    }
+    .form-left {
+        width: 96%;
+    }
+}
+@media screen and (max-width: 660px) {
+    .create-form {
+        width: 71%;
+    }
+    .create-form .create-form-select {
+        width: 105%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .create-form {
+        width: 69%;
+    }
+    .form-buttons {
+        width: 100%;
+    }
+    .form-buttons .form-previous {
+        width: 50%;
+    }
+    .form-buttons .form-next {
+        width: 50%;
+    }
+    .form-left {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .create-form {
+        width: 67%;
+    }
+    .create-form .create-form-select {
+        width: 105%;
+    }
+}
+@media screen and (max-width: 559px) {
+    .create-form .create-form-select {
+        width: 106%;
+    }
+    .form-left {
+        width: 94%!important;
+    }
+}
+@media screen and (max-width: 515px) {
+    .create-form {
+        width: 66%;
+    }
+}
+@media screen and (max-width: 590px) {
+    .create-form {
+        width: 64%;
+    }
+    .form-left {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 466px) {
+    .create-form {
+        width: 62%;
+    }
+    .create-form .create-form-select {
+        width: 107%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .create-form {
+        width: 61%;
+    }
+    .form-left {
+        width: 93%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .create-form {
+        width: 59%;
+    }
+    .input-file {
+        width: 100%;
+    }
+    .create-form .label-grey-image-r {
+        display: none;
+    }
+    .create-form .label-grey-image {
+        display: none;
+    }
+    .create-form .create-form-select {
+        width: 108%;
+    }
+    .create-form .upload-image {
+        margin-top: 20px;
+    }
+    .form-buttons {
+        margin-top: 11px;
+        display: block;
+    }
+    .form-buttons .form-previous {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .form-buttons .form-next {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-top: 18px;
+    }
+    .hidden-browse {
+        display: none;
+    }
+    .mobile-browse {
+        display: block;
+    }
+    .form-left {
+        width: 92%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .create-form {
+        width: 56%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .form-left {
+        width: 91%!important;
+    }
+}
+@media screen and (max-width: 385px) {
+    .create-form {
+        width: 65%;
+        padding: 30px;
+
+    }
+}
 /*END RESTAURANTS*/
 /*END MAIN ADMIN PANEL*/
