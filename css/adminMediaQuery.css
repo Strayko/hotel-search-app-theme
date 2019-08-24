@@ -755,6 +755,9 @@
     .form-right .google-maps {
         display: none;
     }
+    .form-right .picture-of-restaurant {
+        display: none;
+    }
     .form-buttons {
         margin-top: 50px;
         display: flex;
@@ -864,10 +867,23 @@
     .form-left {
         width: 93%!important;
     }
+    .create-form .create-form-select {
+        width: 108%;
+    }
 }
 @media screen and (max-width: 430px) {
     .create-form {
         width: 59%;
+        margin-top: 115px;
+    }
+    .delete-button {
+        margin-top: 54px;
+        margin-left: 40px;
+        width: 78%;
+    }
+    .back-button {
+        width: 54.6%;
+        text-align: center;
     }
     .input-file {
         width: 100%;
@@ -879,7 +895,7 @@
         display: none;
     }
     .create-form .create-form-select {
-        width: 108%;
+        width: 109%;
     }
     .create-form .upload-image {
         margin-top: 20px;
@@ -908,6 +924,7 @@
     .form-left {
         width: 92%!important;
     }
+
 }
 @media screen and (max-width: 430px) {
     .create-form {
@@ -923,7 +940,227 @@
     .create-form {
         width: 65%;
         padding: 30px;
-
+    }
+    .back-button {
+        width: 53%;
+    }
+    .delete-button {
+        width: 79%!important;
+    }
+}
+@media screen and (max-width: 365px) {
+    .create-form {
+        width: 64%;
+    }
+    .back-button {
+        width: 51%;
+    }
+    .delete-button {
+        width: 76%!important;
+    }
+}
+@media screen and (max-width: 355px) {
+    .create-form {
+        width: 63%;
+    }
+    .create-form .create-form-select {
+        width: 110%;
+    }
+    .back-button {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 345px) {
+    .create-form {
+        width: 62%;
+    }
+    .create-form .create-form-select {
+        width: 111%;
+    }
+    .back-button {
+        width: 49%;
+    }
+}
+@media screen and (max-width: 335px) {
+    .create-form {
+        width: 61%;
+    }
+    .form-left {
+        width: 90%!important;
+    }
+    .back-button {
+        width: 47%;
+    }
+}
+@media screen and (max-width: 335px) {
+    .create-form {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 315px) {
+    .create-form {
+        width: 58%;
+    }
+    .form-left {
+        width: 89%!important;
+    }
+    .create-form .create-form-select {
+        width: 112%;
+    }
+    .back-button {
+        width: 44%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .create-form {
+        width: 56%;
+    }
+    .create-form .create-form-select {
+        width: 114%;
+    }
+    .back-button {
+        width: 41.3%;
+    }
+}
+@media screen and (max-width: 295px) {
+    .create-form {
+        width: 55%;
+    }
+    .back-button {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 285px) {
+    .create-form {
+        width: 53%;
+    }
+    .back-button {
+        width: 38%;
+    }
+}
+@media screen and (max-width: 419px) {
+    .delete-button {
+        width: 78.5%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .delete-button {
+        width: 79%;
+    }
+}
+@media screen and (max-width: 404px) {
+    .delete-button {
+        width: 79.5%;
+    }
+}
+@media screen and (max-width: 395px) {
+    .delete-button {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 388px) {
+    .delete-button {
+        width: 80.5%;
+    }
+}
+@media screen and (max-width: 377px) {
+    .delete-button {
+        width: 79.5% !important;
+    }
+}
+@media screen and (max-width: 369px) {
+    .delete-button {
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 365px) {
+    .delete-button {
+        width: 78% !important;
+    }
+}
+@media screen and (max-width: 362px) {
+    .delete-button {
+        width: 78.7% !important;
+    }
+}
+@media screen and (max-width: 356px) {
+    .delete-button {
+        width: 79.3% !important;
+    }
+}
+@media screen and (max-width: 355px) {
+    .delete-button {
+        width: 78.3% !important;
+    }
+}
+@media screen and (max-width: 351px) {
+    .delete-button {
+        width: 78.5% !important;
+    }
+}
+@media screen and (max-width: 345px) {
+    .delete-button {
+        width: 78% !important;
+    }
+}
+@media screen and (max-width: 340px) {
+    .delete-button {
+        width: 78.5% !important;
+    }
+}
+@media screen and (max-width: 335px) {
+    .delete-button {
+        width: 77% !important;
+    }
+}
+@media screen and (max-width: 331px) {
+    .delete-button {
+        width: 77.5% !important;
+    }
+}
+@media screen and (max-width: 325px) {
+    .delete-button {
+        width: 78% !important;
+    }
+}
+@media screen and (max-width: 317px) {
+    .delete-button {
+        width: 78.5% !important;
+    }
+}
+@media screen and (max-width: 315px) {
+    .delete-button {
+        width: 76% !important;
+    }
+}
+@media screen and (max-width: 309px) {
+    .delete-button {
+        width: 76.5% !important;
+    }
+}
+@media screen and (max-width: 305px) {
+    .delete-button {
+        width: 74% !important;
+    }
+}
+@media screen and (max-width: 300px) {
+    .delete-button {
+        width: 74.5% !important;
+    }
+}
+@media screen and (max-width: 300px) {
+    .delete-button {
+        width: 74% !important;
+    }
+}
+@media screen and (max-width: 289px) {
+    .delete-button {
+        width: 74.5% !important;
+    }
+}
+@media screen and (max-width: 285px) {
+    .delete-button {
+        width: 73.5% !important;
     }
 }
 /*END RESTAURANTS*/
