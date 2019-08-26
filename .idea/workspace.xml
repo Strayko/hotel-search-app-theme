@@ -6,14 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="9f1df6d9-017d-4e46-8dfe-b8ae25c64a5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin2/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/blog/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/blog/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/blog/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/comments/replies.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/comments/replies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/distance/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/distance/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/distance/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/distance/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/distance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/distance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/foods/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/foods/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/foods/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/foods/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/foods/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/foods/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/locations/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/locations/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/locations/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/locations/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/locations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/locations/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/media/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/media/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/packages/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/packages/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/packages/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/packages/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/packages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/packages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/restaurants/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/restaurants/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/restaurants/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/restaurants/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin2/restaurants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/restaurants/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/users/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/users/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/users/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/users/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin2/users/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/adminMediaQuery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adminMediaQuery.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,57 +45,10 @@
     <favorites_list name="webapp-theme" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/adminMediaQuery.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="1272" column="20" selection-start-line="1272" selection-start-column="20" selection-end-line="1272" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15195">
-              <caret line="1013" column="1" selection-start-line="1013" selection-start-column="1" selection-end-line="1013" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin2/packages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" selection-start-line="124" selection-end-line="129" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin2/packages/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="80" selection-start-line="80" selection-end-line="85" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin2/packages/edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar</find>
       <find>locationAm</find>
       <find>location</find>
       <find>right-circle</find>
@@ -109,6 +78,7 @@
       <find>385</find>
       <find>box-sha</find>
       <find>.admin-navbar</find>
+      <find>590</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -120,20 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin2/locations/index.html" />
-        <option value="$PROJECT_DIR$/admin2/locations/create.html" />
-        <option value="$PROJECT_DIR$/admin2/foods/index.html" />
-        <option value="$PROJECT_DIR$/admin2/foods/create.html" />
-        <option value="$PROJECT_DIR$/admin2/distance/index.html" />
-        <option value="$PROJECT_DIR$/admin2/distance/create.html" />
-        <option value="$PROJECT_DIR$/admin2/comments/replies.html" />
-        <option value="$PROJECT_DIR$/admin2/comments/index.html" />
-        <option value="$PROJECT_DIR$/admin2/blog/index.html" />
-        <option value="$PROJECT_DIR$/admin2/blog/create.html" />
-        <option value="$PROJECT_DIR$/admin/dashboard.html" />
-        <option value="$PROJECT_DIR$/admin/restaurants/create.html" />
-        <option value="$PROJECT_DIR$/admin/gallery/index.html" />
-        <option value="$PROJECT_DIR$/admin/events/index.html" />
         <option value="$PROJECT_DIR$/admin/events/create.html" />
         <option value="$PROJECT_DIR$/admin/actions/create.html" />
         <option value="$PROJECT_DIR$/admin/actions/index.html" />
@@ -145,10 +101,6 @@
         <option value="$PROJECT_DIR$/admin/booking/edit.html" />
         <option value="$PROJECT_DIR$/admin/booking/index.html" />
         <option value="$PROJECT_DIR$/admin/restaurants/index.html" />
-        <option value="$PROJECT_DIR$/admin2/locations/edit.html" />
-        <option value="$PROJECT_DIR$/admin2/foods/edit.html" />
-        <option value="$PROJECT_DIR$/admin2/distance/edit.html" />
-        <option value="$PROJECT_DIR$/admin2/blog/edit.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
@@ -163,21 +115,39 @@
         <option value="$PROJECT_DIR$/singlePage.html" />
         <option value="$PROJECT_DIR$/css/styleMediaQuery.css" />
         <option value="$PROJECT_DIR$/css/admin.css" />
-        <option value="$PROJECT_DIR$/admin2/packages/index.html" />
-        <option value="$PROJECT_DIR$/admin2/restaurants/create.html" />
-        <option value="$PROJECT_DIR$/admin2/restaurants/edit.html" />
-        <option value="$PROJECT_DIR$/admin2/restaurants/index.html" />
-        <option value="$PROJECT_DIR$/admin2/dashboard.html" />
-        <option value="$PROJECT_DIR$/admin2/packages/create.html" />
+        <option value="$PROJECT_DIR$/admin2/users/create.html" />
+        <option value="$PROJECT_DIR$/admin2/users/edit.html" />
         <option value="$PROJECT_DIR$/css/adminMediaQuery.css" />
+        <option value="$PROJECT_DIR$/admin2/dashboard.html" />
+        <option value="$PROJECT_DIR$/admin2/restaurants/index.html" />
+        <option value="$PROJECT_DIR$/admin2/restaurants/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/restaurants/create.html" />
+        <option value="$PROJECT_DIR$/admin2/packages/index.html" />
         <option value="$PROJECT_DIR$/admin2/packages/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/packages/create.html" />
+        <option value="$PROJECT_DIR$/admin2/media/index.html" />
+        <option value="$PROJECT_DIR$/admin2/locations/index.html" />
+        <option value="$PROJECT_DIR$/admin2/locations/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/locations/create.html" />
+        <option value="$PROJECT_DIR$/admin2/foods/index.html" />
+        <option value="$PROJECT_DIR$/admin2/foods/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/foods/create.html" />
+        <option value="$PROJECT_DIR$/admin2/distance/index.html" />
+        <option value="$PROJECT_DIR$/admin2/distance/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/distance/create.html" />
+        <option value="$PROJECT_DIR$/admin2/comments/replies.html" />
+        <option value="$PROJECT_DIR$/admin2/comments/index.html" />
+        <option value="$PROJECT_DIR$/admin2/blog/index.html" />
+        <option value="$PROJECT_DIR$/admin2/blog/edit.html" />
+        <option value="$PROJECT_DIR$/admin2/blog/create.html" />
+        <option value="$PROJECT_DIR$/admin2/users/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="183" />
-    <option name="y" value="433" />
-    <option name="width" value="1202" />
+    <option name="x" value="154" />
+    <option name="y" value="432" />
+    <option name="width" value="1192" />
     <option name="height" value="420" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,22 +169,6 @@
               <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
               <item name="admin2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin2" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,12 +273,13 @@
       <workItem from="1566541234186" duration="7942000" />
       <workItem from="1566554511900" duration="3269000" />
       <workItem from="1566649169235" duration="3801000" />
-      <workItem from="1566817684463" duration="936000" />
+      <workItem from="1566817684463" duration="7450000" />
+      <workItem from="1566825346544" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444290000" />
+    <option name="totallyTimeSpent" value="451070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,10 +291,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="25" width="1381" height="875" extended-state="6" />
-    <editor active="true" />
+    <frame x="154" y="432" width="1192" height="420" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4814815" visible="true" weight="0.17157584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4814815" visible="true" weight="0.19931565" />
       <window_info id="Structure" order="1" sideWeight="0.5185185" side_tool="true" weight="0.19779287" />
       <window_info id="Favorites" order="2" sideWeight="0.5067568" side_tool="true" weight="0.19846678" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,104 +337,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin2/distance/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/comments/replies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/blog/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/users/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="49" column="30" selection-end-line="139" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/comments/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="77" column="167" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/users/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="30" selection-end-line="104" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/distance/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="50" column="39" selection-end-line="116" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/media/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="39" selection-end-line="114" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/users/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="49" column="30" selection-end-line="106" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/restaurants/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/gallery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/events/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/events/create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -541,34 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/locations/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/foods/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/distance/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/blog/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -687,38 +515,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/restaurants/create.html">
+    <entry file="file://$PROJECT_DIR$/admin2/users/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="123" column="153" selection-start-line="123" selection-start-column="153" selection-end-line="123" selection-end-column="153" />
+        <state relative-caret-position="485">
+          <caret line="114" selection-start-line="114" selection-end-line="119" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/restaurants/edit.html">
+    <entry file="file://$PROJECT_DIR$/admin2/users/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="127" column="153" selection-start-line="127" selection-start-column="153" selection-end-line="127" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="138" column="157" selection-start-line="138" selection-start-column="157" selection-end-line="138" selection-end-column="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/restaurants/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="158" column="153" selection-start-line="158" selection-start-column="153" selection-end-line="158" selection-end-column="153" />
+        <state relative-caret-position="540">
+          <caret line="94" column="66" lean-forward="true" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/adminMediaQuery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="1272" column="20" selection-start-line="1272" selection-start-column="20" selection-end-line="1272" selection-end-column="20" />
+        <state relative-caret-position="23265">
+          <caret line="1551" column="20" selection-start-line="1551" selection-start-column="20" selection-end-line="1551" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -729,24 +543,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/packages/index.html">
+    <entry file="file://$PROJECT_DIR$/admin2/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" selection-start-line="124" selection-end-line="129" selection-end-column="9" />
+        <state relative-caret-position="510">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin2/packages/create.html">
+    <entry file="file://$PROJECT_DIR$/admin2/restaurants/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="80" selection-start-line="80" selection-end-line="85" selection-end-column="9" />
+        <state relative-caret-position="450">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/restaurants/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/restaurants/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/packages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin2/packages/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/packages/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/media/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/locations/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/locations/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/locations/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/foods/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/foods/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/distance/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/distance/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/comments/replies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/comments/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/blog/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/blog/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/users/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="105" lean-forward="true" selection-start-line="33" selection-start-column="105" selection-end-line="33" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/distance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/foods/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
         </state>
       </provider>
     </entry>

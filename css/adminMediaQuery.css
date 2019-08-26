@@ -1274,4 +1274,283 @@
     }
 }
 /*END PACKAGE*/
+
+/*START USERS*/
+@media screen and (max-width: 1291px) {
+    .upload-user-image {
+        width: 105%;
+    }
+}
+@media screen and (max-width: 1186px) {
+    .upload-user-image {
+        width: 105.5%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .create-form .create-form-select {
+        width: 105.5%;
+    }
+}
+@media screen and (max-width: 1178px) {
+    .create-form .create-form-select {
+        width: 106%;
+    }
+}
+@media screen and (max-width: 1064px) {
+    .upload-user-image {
+        width: 106%;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .create-form .create-form-select {
+        width: 106.5%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .create-form .create-form-select {
+        width: 107%;
+    }
+}
+@media screen and (max-width: 990px) {
+    .create-form .create-form-select {
+        width: 107.5%;
+    }
+}
+@media screen and (max-width: 933px) {
+    .create-form .create-form-select {
+        width: 108%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .create-form .create-form-select {
+        width: 107.5%;
+    }
+}
+@media screen and (max-width: 858px) {
+    .create-form .create-form-select {
+        width: 108%;
+    }
+}
+@media screen and (max-width: 808px) {
+    .create-form .create-form-select {
+        width: 103.5%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .create-form .create-form-select {
+        width: 104%;
+    }
+}
+@media screen and (max-width: 695px) {
+    .create-form .create-form-select {
+        width: 104.5%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .create-form .create-form-select {
+        width: 105%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .create-form .create-form-select {
+        width: 105.5%;
+    }
+}
+@media screen and (max-width: 590px) {
+    .create-form .create-form-select {
+        width: 106%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .create-form .create-form-select {
+        width: 106.5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .create-form .create-form-select {
+        width: 107%;
+    }
+}
+@media screen and (max-width: 466px) {
+    .create-form .create-form-select {
+        width: 107.5%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .create-form .create-form-select {
+        width: 108%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .create-form .create-form-select {
+        width: 109%;
+    }
+}
+@media screen and (max-width: 398px) {
+    .create-form .create-form-select {
+        width: 110.5%;
+    }
+}
+@media screen and (max-width: 385px) {
+    .create-form .create-form-select {
+        width: 109.5%;
+    }
+}
+@media screen and (max-width: 358px) {
+    .create-form .create-form-select {
+        width: 111%;
+    }
+}
+@media screen and (max-width: 335px) {
+    .create-form .create-form-select {
+        width: 111.5%;
+    }
+}
+@media screen and (max-width: 315px) {
+    .create-form .create-form-select {
+        width: 113%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .create-form .create-form-select {
+        width: 114%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .create-form .create-form-select {
+        width: 115%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .create-form .create-form-select {
+        width: 116%;
+    }
+}
+@media screen and (max-width: 1126px) {
+    .upload-user-image {
+        width: 106%!important;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .upload-user-image {
+        width: 107%!important;
+    }
+}
+@media screen and (max-width: 808px) {
+    .upload-user-image {
+        width: 103.5%!important;
+    }
+}
+@media screen and (max-width: 717px) {
+    .upload-user-image {
+        width: 104%!important;
+    }
+}
+@media screen and (max-width: 678px) {
+    .upload-user-image {
+        width: 104.5%!important;
+    }
+}
+@media screen and (max-width: 620px) {
+    .upload-user-image {
+        width: 105%!important;
+    }
+}
+@media screen and (max-width: 590px) {
+    .upload-user-image {
+        width: 106%!important;
+    }
+}
+@media screen and (max-width: 510px) {
+    .upload-user-image {
+        width: 106.5%!important;
+    }
+}
+@media screen and (max-width: 466px) {
+    .upload-user-image {
+        width: 107%!important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .upload-user-image {
+        width: 107.5%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .upload-user-image {
+        width: 109%!important;
+    }
+}
+@media screen and (max-width: 406px) {
+    .upload-user-image {
+        width: 109.5%!important;
+    }
+}
+@media screen and (max-width: 398px) {
+    .upload-user-image {
+        width: 110%!important;
+    }
+}
+@media screen and (max-width: 385px) {
+    .upload-user-image {
+        width: 109%!important;
+    }
+}
+@media screen and (max-width: 373px) {
+    .upload-user-image {
+        width: 109.5%!important;
+    }
+}
+@media screen and (max-width: 358px) {
+    .upload-user-image {
+        width: 110%!important;
+    }
+}
+@media screen and (max-width: 335px) {
+    .upload-user-image {
+        width: 111%!important;
+    }
+}
+@media screen and (max-width: 315px) {
+    .upload-user-image {
+        width: 112%!important;
+    }
+}
+@media screen and (max-width: 305px) {
+    .upload-user-image {
+        width: 114%!important;
+    }
+}
+@media screen and (max-width: 285px) {
+    .upload-user-image {
+        width: 115%!important;
+    }
+}
+/*END USERS*/
+
+/*START COMMENTS*/
+@media screen and (max-width: 739px) {
+    .only-sorting {
+        margin-left: 29px!important;
+        margin-top: 15px!important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .only-sorting {
+        margin-left: 12px!important;
+    }
+}
+/*END COMMENTS*/
+
+/*START MEDIA*/
+@media screen and (max-width: 317px) {
+    #restaurants-table .media-submit {
+        margin-top: 12px;
+        width: 100%;
+    }
+    #restaurants-table .media-select {
+        width: 100%;
+    }
+}
+/*END MEDIA*/
 /*END MAIN ADMIN PANEL*/
