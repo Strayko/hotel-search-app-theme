@@ -447,6 +447,7 @@ body {
     border-radius: 5px;
     padding: 15px;
     display: inline-block;
+    z-index: 8888;
 }
 #restaurants-table table tr td .blue {
     text-decoration: none;

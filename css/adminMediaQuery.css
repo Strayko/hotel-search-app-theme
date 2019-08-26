@@ -1164,4 +1164,114 @@
     }
 }
 /*END RESTAURANTS*/
+
+/*START PACKAGE*/
+@media screen and (max-width: 1291px) {
+    .create-form .form-left .create-input-button {
+        margin-right: -20px;
+    }
+}
+@media screen and (max-width: 559px) {
+    .create-form .form-left .create-input-button {
+        width: 106%;
+    }
+}
+@media screen and (max-width: 523px) {
+    .create-form .form-left .create-input-button {
+        width: 106.5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .create-form .form-left .create-input-button {
+        width: 106.8%;
+    }
+}
+@media screen and (max-width: 466px) {
+    .create-form .form-left .create-input-button {
+        width: 107.2%;
+    }
+}
+@media screen and (max-width: 451px) {
+    .create-form .form-left .create-input-button {
+        width: 107.5%;
+    }
+}
+@media screen and (max-width: 445px) {
+    .create-form .form-left .create-input-button {
+        width: 108%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .create-form .form-left .create-input-button {
+        width: 109%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .create-form .form-left .create-input-button {
+        width: 109.5%;
+    }
+}
+@media screen and (max-width: 392px) {
+    .create-form .form-left .create-input-button {
+        width: 110%;
+    }
+}
+@media screen and (max-width: 385px) {
+    .create-form .form-left .create-input-button {
+        width: 109%;
+    }
+}
+@media screen and (max-width: 363px) {
+    .create-form .form-left .create-input-button {
+        width: 109.8%;
+    }
+}
+@media screen and (max-width: 355px) {
+    .create-form .form-left .create-input-button {
+        width: 110.3%;
+    }
+}
+@media screen and (max-width: 345px) {
+    .create-form .form-left .create-input-button {
+        width: 110.5%;
+    }
+}
+@media screen and (max-width: 335px) {
+    .create-form .form-left .create-input-button {
+        width: 111%;
+    }
+}
+@media screen and (max-width: 321px) {
+    .create-form .form-left .create-input-button {
+        width: 112%;
+    }
+}
+@media screen and (max-width: 315px) {
+    .create-form .form-left .create-input-button {
+        width: 112.5%;
+    }
+}
+
+@media screen and (max-width: 312px) {
+    .create-form .form-left .create-input-button {
+        width: 113.5%!important;
+    }
+}
+@media screen and (max-width: 305px) {
+    .create-form .form-left .create-input-button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .create-form .form-left .create-input-button {
+        width: 114%!important;
+    }
+}
+@media screen and (max-width: 285px) {
+    .create-form .form-left .create-input-button {
+        width: 115%!important;
+    }
+}
+/*END PACKAGE*/
 /*END MAIN ADMIN PANEL*/
