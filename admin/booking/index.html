@@ -8,6 +8,7 @@
 
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="../../css/admin.css" type="text/css" >
+    <link rel="stylesheet" href="../../css/adminMediaQuery.css" type="text/css" >
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/003e33b51d.js"></script>
@@ -27,6 +28,8 @@
     <div class="admin2-menu">
         <ol>
             <a href="../../index.html"><li><img src="../../img/logo-white.svg" alt=""></li></a>
+            <a href="../../index.html"><li class="p-lead home-menu-toggle">Home</li></a>
+            <a href="../users/edit.html"><p class="p-lead admin-menu-name">Mark Gomez</p></a>
             <hr>
             <a href="../dashboard.html"><li class="p-lead"><i class="fas fa-home"></i> Dashboard</li></a>
             <a href="../restaurants/index.html"><li class="p-lead"><i class="fas fa-utensils"></i> Restaurants</li></a>
@@ -34,6 +37,7 @@
             <a href="../gallery/index.html"><li class="p-lead"><i class="fas fa-camera"></i> Gallery</li></a>
             <a href="index.html"><li class="p-lead active"><i class="fas fa-paste"></i> Booking</li></a>
             <a href="../actions/index.html"><li class="p-lead"><i class="fas fa-wallet"></i> Actions</li></a>
+            <a href="#"><p class="p-lead logout-menu-show"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
         </ol>
     </div>
     <!-- END MENU -->
@@ -42,6 +46,11 @@
     <div class="admin2-dashboard-content">
         <div class="dashboard-header">
             <i class="fas fa-paste"></i><h2>Reservations</h2>
+
+            <a class="toggle-menu-link" href="javascript:void(0);" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+
             <a href="#"><p class="p-lead"><i class="fas fa-sign-out-alt"></i> Logout</p></a>
             <a href="../users/edit.html"><p class="p-lead">Mark Gomez</p> <img src="../../img/testimonial2.png" alt=""></a>
         </div>
@@ -49,7 +58,7 @@
             <div class="search-inputs">
                 <i class="fas fa-search"></i>
                 <input class="search" type="text" placeholder="Search reservations ...">
-                <div class="sorting-button-box">
+                <div class="sorting-button-box" id="sorting-button-box">
                     <a class="header-inputs-tirkiz" href="#"><i class="fas fa-utensils"></i> SORTING RESERVATIONS</a>
                 </div>
             </div>
@@ -72,7 +81,7 @@
                         <td>20:00:00</td>
                         <td>1 day ago</td>
                         <td>5</td>
-                        <td class="center-buttons"><a class="blue" href="edit.html">Show</a> <input type="submit" class="red-input" value="Delete"></td>
+                        <td class="center-buttons"><a class="blue" id="blue-input-booking" href="edit.html">Show</a> <input type="submit" class="red-input" id="red-input-booking" value="Delete"></td>
                     </tr>
                 </table>
             </div>
@@ -83,5 +92,11 @@
 <!-- END RESTAURANT CONTENT -->
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $('.toggle-menu-link').click( function() {
+        $(".admin2-menu").toggleClass("admin-navbar").css({"display": "block!important", "z-index": "9999", "box-shadow": "1px 1px 2px rgba(0,0,0,.5)"});
+    } );
+</script>
 </body>
 </html>
