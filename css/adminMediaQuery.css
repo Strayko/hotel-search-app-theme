@@ -1554,3 +1554,202 @@
 }
 /*END MEDIA*/
 /*END MAIN ADMIN PANEL*/
+
+/*START USER ADMIN PANEL*/
+@media screen and (max-width: 1368px) {
+    #user-admin-dashboard {
+        width: 70%!important;
+    }
+    #user-dashboard-right-box {
+        width: 62%;
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    #user-dashboard-right-box {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    #user-dashboard-right-box {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 762px) {
+    #user-admin-dashboard {
+        display: block;
+        width: 84%!important;
+        overflow: scroll;
+    }
+    #user-dashboard-right-box {
+        margin-left: 39px;
+        margin-top: 18px;
+        margin-right: 0;
+        width: 86%;
+    }
+    #user-blue-box {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 689px) {
+    #user-admin-dashboard {
+        width: 82%!important;
+    }
+}
+@media screen and (max-width: 624px) {
+    #user-admin-dashboard {
+        width: 80%!important;
+    }
+}
+@media screen and (max-width: 510px) {
+    #user-admin-dashboard {
+        width: 78%!important;
+    }
+}
+@media screen and (max-width: 460px) {
+    #user-admin-dashboard {
+        width: 76%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    #user-admin-dashboard {
+        width: 75%!important;
+    }
+}
+@media screen and (max-width: 410px) {
+    #user-admin-dashboard {
+        width: 74%!important;
+    }
+}
+@media screen and (max-width: 390px) {
+    #user-admin-dashboard {
+        width: 72%!important;
+    }
+}
+@media screen and (max-width: 370px) {
+    #user-admin-dashboard {
+        width: 71%!important;
+    }
+}
+@media screen and (max-width: 350px) {
+    #user-admin-dashboard {
+        width: 69%!important;
+    }
+}
+@media screen and (max-width: 340px) {
+    #user-admin-dashboard {
+        width: 68%!important;
+    }
+}
+@media screen and (max-width: 330px) {
+    #user-admin-dashboard {
+        width: 67%!important;
+    }
+}
+@media screen and (max-width: 320px) {
+    #user-admin-dashboard {
+        width: 66%!important;
+    }
+}
+@media screen and (max-width: 310px) {
+    #user-admin-dashboard {
+        width: 65%!important;
+    }
+}
+@media screen and (max-width: 300px) {
+    #user-admin-dashboard {
+        width: 64%!important;
+    }
+}
+@media screen and (max-width: 290px) {
+    #user-admin-dashboard {
+        width: 63%!important;
+    }
+}
+@media screen and (max-width: 280px) {
+    #user-admin-dashboard {
+        width: 62%!important;
+    }
+}
+@media screen and (max-width: 730px) {
+    #user-blue-box {
+        width: 100.5%;
+    }
+}
+@media screen and (max-width: 689px) {
+    #user-blue-box {
+        width: 98.5%;
+    }
+}
+@media screen and (max-width: 624px) {
+    #user-blue-box {
+        width: 96.5%;
+    }
+}
+@media screen and (max-width: 559px) {
+    #user-blue-box {
+        width: 99%!important;
+    }
+}
+@media screen and (max-width: 510px) {
+    #user-blue-box {
+        width: 97%!important;
+    }
+}
+@media screen and (max-width: 460px) {
+    #user-blue-box {
+        width: 96%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    #user-blue-box {
+        width: 95%!important;
+    }
+}
+@media screen and (max-width: 430px) {
+    #user-blue-box {
+        width: 94%!important;
+    }
+}
+@media screen and (max-width: 390px) {
+    #user-blue-box {
+        width: 93%!important;
+    }
+}
+@media screen and (max-width: 370px) {
+    #user-blue-box {
+        width: 92%!important;
+    }
+}
+@media screen and (max-width: 350px) {
+    #user-blue-box {
+        width: 89%!important;
+    }
+}
+@media screen and (max-width: 330px) {
+    #user-blue-box {
+        width: 88.5%!important;
+    }
+}
+@media screen and (max-width: 320px) {
+    #user-blue-box {
+        width: 87%!important;
+    }
+}
+@media screen and (max-width: 300px) {
+    #user-blue-box {
+        width: 86%!important;
+    }
+}
+@media screen and (max-width: 290px) {
+    #user-blue-box {
+        width: 85%!important;
+    }
+}
+@media screen and (max-width: 280px) {
+    #user-blue-box {
+        width: 84%!important;
+    }
+}
+/*END USER ADMIN PANEL*/
