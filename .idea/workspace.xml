@@ -4,23 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/js/script.js" line="81" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1df6d9-017d-4e46-8dfe-b8ae25c64a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/actions/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/actions/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/actions/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/actions/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/actions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/actions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/booking/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/booking/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/booking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/booking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/events/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/events/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/events/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/events/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/gallery/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gallery/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/restaurants/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/restaurants/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/restaurants/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/restaurants/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/restaurants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/restaurants/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adminMediaQuery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adminMediaQuery.css" afterDir="false" />
-    </list>
+    <list default="true" id="9f1df6d9-017d-4e46-8dfe-b8ae25c64a5f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,19 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/adminMediaQuery.css">
+        <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="2287" column="19" selection-start-line="2287" selection-start-column="19" selection-end-line="2287" selection-end-column="19" />
+            <state relative-caret-position="491">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/gallery/edit.html">
+        <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="67" column="91" selection-start-line="67" selection-start-column="91" selection-end-line="67" selection-end-column="91" />
+            <state relative-caret-position="204">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plans&amp;pricing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -98,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plans&amp;pricing.html" />
-        <option value="$PROJECT_DIR$/restaurants.html" />
         <option value="$PROJECT_DIR$/signIn.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/renewAccount.html" />
@@ -149,10 +140,12 @@
         <option value="$PROJECT_DIR$/admin/gallery/index.html" />
         <option value="$PROJECT_DIR$/admin/gallery/edit.html" />
         <option value="$PROJECT_DIR$/css/adminMediaQuery.css" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/search.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="160" />
     <option name="y" value="385" />
     <option name="width" value="1192" />
@@ -171,35 +164,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="admin2" type="462c0819:PsiDirectoryNode" />
-              <item name="locations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webapp-theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-search-app-theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-search-app-theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/slick" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -219,7 +185,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,11 +274,12 @@
       <workItem from="1566896187185" duration="3866000" />
       <workItem from="1566900203661" duration="50000" />
       <workItem from="1566900619499" duration="12935000" />
+      <workItem from="1568300838901" duration="1527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471786000" />
+    <option name="totallyTimeSpent" value="473313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,10 +291,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="385" width="1192" height="420" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4814815" visible="true" weight="0.19931565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4814815" visible="true" weight="0.14575411" />
       <window_info id="Structure" order="1" sideWeight="0.5185185" side_tool="true" weight="0.19779287" />
       <window_info id="Favorites" order="2" sideWeight="0.5067568" side_tool="true" weight="0.19846678" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,27 +338,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resetPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renewAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newPassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -724,17 +670,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/adminMediaQuery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="2280" column="38" lean-forward="true" selection-start-line="2280" selection-start-column="38" selection-end-line="2280" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/gallery/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="1139">
           <caret line="67" column="91" selection-start-line="67" selection-start-column="91" selection-end-line="67" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/adminMediaQuery.css">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="2287" column="19" selection-start-line="2287" selection-start-column="19" selection-end-line="2287" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plans&amp;pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
